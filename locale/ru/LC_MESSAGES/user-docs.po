@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-29 14:15+0200\n"
-"PO-Revision-Date: 2024-10-09 16:00+0000\n"
+"PO-Revision-Date: 2024-10-17 13:00+0000\n"
 "Last-Translator: Nikita <nyakovlev@iko.tech>\n"
 "Language-Team: Russian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-latest/ru/>\n"
@@ -54,7 +54,7 @@ msgstr "Подменю пользователя"
 #: ../advanced/keyboard-shortcuts.rst:18
 msgid "Alternatively, open it with one of the shortcuts below:"
 msgstr ""
-"Либо вызовите его при помощи одного из приведенных ниже сочетаний клавиш:"
+"Либо откройте её при помощи одного из приведенных ниже сочетаний клавиш:"
 
 #: ../advanced/keyboard-shortcuts.rst:20
 msgid "``ctrl`` + ``shift`` + ``h`` (on Linux and Windows)"
@@ -69,16 +69,15 @@ msgid ""
 "This will open an overview of available keyboard-shortcuts as in the "
 "following screenshot:"
 msgstr ""
-"Откроется обзор доступных сочетаний клавиш, как показано на следующем "
-"скриншоте:"
+"Откроется обзор доступных сочетаний клавиш, как показано на скриншоте ниже:"
 
 #: ../advanced/keyboard-shortcuts.rst:31
 msgid "Keyboard shortcut cheat sheet"
-msgstr "Памятка по сочетаниям клавиш"
+msgstr "Шпаргалка по сочетаниям клавиш"
 
 #: ../advanced/keyboard-shortcuts.rst:31
 msgid "The keyboard shortcut cheat sheet."
-msgstr "Памятка по сочетаниям клавиш."
+msgstr "Шпаргалка по сочетаниям клавиш."
 
 #: ../advanced/keyboard-shortcuts.rst:35
 msgid "List of Available Keyboard Shortcuts"
@@ -106,7 +105,7 @@ msgstr "``shift`` + ``ctrl`` + ``d``"
 
 #: ../advanced/keyboard-shortcuts.rst:43
 msgid "Show dashboard"
-msgstr "Показать дашборд"
+msgstr "Перейти в раздел \"Показатели\""
 
 #: ../advanced/keyboard-shortcuts.rst:44
 msgid "``shift`` + ``ctrl`` + ``o``"
@@ -122,7 +121,7 @@ msgstr "``shift`` + ``ctrl`` + ```s``"
 
 #: ../advanced/keyboard-shortcuts.rst:45
 msgid "Trigger the search"
-msgstr ""
+msgstr "Активировать область поиска"
 
 #: ../advanced/keyboard-shortcuts.rst:46
 msgid "``shift`` + ``ctrl`` + ``a``"
@@ -226,7 +225,7 @@ msgstr "``shift`` + ``ctrl`` + 2x ``.``"
 
 #: ../advanced/keyboard-shortcuts.rst:58
 msgid "Add the title of the object to the number"
-msgstr "Добавить название объекта к номеру"
+msgstr "Добавить заголовок объекта к номеру"
 
 #: ../advanced/keyboard-shortcuts.rst:59
 msgid "``shift`` + ``ctrl`` + 3x ``.``"
@@ -243,8 +242,7 @@ msgstr "Переводы"
 #: ../advanced/keyboard-shortcuts.rst:65
 msgid "Note: you need to have admin permissions to use this."
 msgstr ""
-"Примечание: для использования этого сочетания клавиш Вам необходимо иметь "
-"права администратора."
+"Примечание: для использования Вам необходимо иметь права администратора."
 
 #: ../advanced/keyboard-shortcuts.rst:70
 msgid "``shift`` + ``ctrl`` + ``t``"
@@ -276,7 +274,7 @@ msgstr "``shift`` + ``ctrl`` + ``m``"
 
 #: ../advanced/keyboard-shortcuts.rst:89
 msgid "Create a new note article"
-msgstr "Создайте новую заметку"
+msgstr "Создайте новую статью в заявке"
 
 #: ../advanced/keyboard-shortcuts.rst:90
 msgid "``shift`` + ``ctrl`` + ``g``"
@@ -374,7 +372,7 @@ msgstr "Введите желаемый текст,"
 
 #: ../advanced/keyboard-shortcuts.rst:114
 msgid "click-and-drag with the mouse to select it, and"
-msgstr "щелкните и перетащите мышью, чтобы выбрать его, и"
+msgstr "выделите его мышью, и"
 
 #: ../advanced/keyboard-shortcuts.rst:115
 msgid "press ``cmd`` + ``i`` to set the text in *italics*."
@@ -390,7 +388,7 @@ msgstr "``ctrl`` + ``u``"
 
 #: ../advanced/keyboard-shortcuts.rst:121
 msgid "Format text underlined"
-msgstr ""
+msgstr "Сделать текст п͟о͟д͟ч͟ё͟р͟к͟н͟у͟т͟ы͟м͟"
 
 #: ../advanced/keyboard-shortcuts.rst:122
 msgid "``ctrl`` + ``b``"
@@ -414,7 +412,7 @@ msgstr "``ctrl`` + ```s``"
 
 #: ../advanced/keyboard-shortcuts.rst:124
 msgid "Format text as  ̶s̶t̶r̶i̶k̶e̶t̶h̶r̶o̶u̶g̶h̶"
-msgstr "Форматировать текст как s̶t̶r̶i̶k̶e̶t̶h̶r̶o̶u̶g̶h̶"
+msgstr "Сделать текст з̶а̶ч̶ё̶р̶к̶н̶у̶т̶ы̶м̶"
 
 #: ../advanced/keyboard-shortcuts.rst:125
 msgid "``ctrl`` + ``v``"
@@ -874,194 +872,210 @@ msgid ""
 "receive search results that you want to exclude, you can use negation ``!``. "
 "Below are some examples that you could use with this:"
 msgstr ""
+"Вы можете комбинировать поисковые фразы с помощью ``AND``, ``OR`` и ``TO``, "
+"в зависимости от ситуации и используемых Вами фраз. При необходимости, Вы "
+"можете дополнить поисковую фразу для сложного поиска с помощью ``()``. Это "
+"позволит Вам объединить несколько фраз с различными зависимостями (AND/OR). "
+"В случае если Вы хотите исключить что-то из результатов поиска - можно "
+"использовать отрицание ``!``. Ниже приведены примеры, которые Вы можете "
+"использовать:"
 
 #: ../advanced/search.rst:57
 msgid "Examples for search phrase combinations"
-msgstr ""
+msgstr "Примеры комбинаций поисковых фраз"
 
 #: ../advanced/search.rst:1
 msgid "Search phrase"
-msgstr ""
+msgstr "Поисковая фраза"
 
 #: ../advanced/search.rst:1
 msgid ""
 "state.name:(closed OR open) AND (priority.name:\"2 normal\" OR tags:feedback)"
 msgstr ""
+"state.name:(closed OR open) AND (priority.name:\"2 normal\" OR tags:feedback)"
 
 #: ../advanced/search.rst:1
 msgid ""
 "Show every ticket that state is either closed or open and has priority "
 "normal or the tag feedback."
 msgstr ""
+"Найти заявки, состояние которых либо закрыто, либо открыто и имеет приоритет "
+"normal или тег feedback."
 
 #: ../advanced/search.rst:1
 msgid ""
 "state.name:(closed OR open) AND (priority.name:\"2 normal\" OR tags:"
 "feedback) AND !(*Zammad*)"
 msgstr ""
+"state.name:(closed OR open) AND (priority.name:\"2 normal\" OR tags:feedback)"
+" AND !(*Zammad*)"
 
 #: ../advanced/search.rst:1
 msgid ""
 "This gets the same result as above, expect that we don't want the ticket to "
 "contain anything matching to \"Zammad\""
 msgstr ""
+"Получится тот же результат, что и выше, только не будет заявок у которых что-"
+"то совпадает с \"Zammad\""
 
 #: ../advanced/search.rst:1
 msgid "owner.email:bob@example.net AND state.name:(open OR new)"
-msgstr ""
+msgstr "owner.email:bob@example.net AND state.name:(open OR new)"
 
 #: ../advanced/search.rst:1
 msgid "Show Tickets from bob@example.net that are either open or new"
-msgstr ""
+msgstr "Найти заявки от bob@example.net, которые открыты или новые"
 
 #: ../advanced/search.rst:1
 msgid "state.name:pending* AND article_count:[1 TO 5]"
-msgstr ""
+msgstr "state.name:pending* AND article_count:[1 TO 5]"
 
 #: ../advanced/search.rst:1
 msgid "Show everything with any pending state and an article count of 1 to 5."
 msgstr ""
+"Найти все заявки с любым состоянием ожидания и количеством статей от 1 до 5."
 
 #: ../advanced/search.rst:67
 msgid "Some Ticket Attributes and Their Type"
-msgstr ""
+msgstr "Некоторые атрибуты заявок и их типы"
 
 #: ../advanced/search.rst:69
 msgid ""
 "Below you can find the most important attributes sorted by ticket and "
 "article."
 msgstr ""
+"Ниже Вы можете найти наиболее важные атрибуты, отсортированные по заявкам и "
+"статьям."
 
 #: ../advanced/search.rst:72
-#, fuzzy
-#| msgid "Ticket Macros"
 msgid "Ticket Attributes"
-msgstr "Макрос заявки"
+msgstr "Атрибуты заявки"
 
 #: ../advanced/search.rst:74
 msgid "number: string"
-msgstr ""
+msgstr "number: string"
 
 #: ../advanced/search.rst:75
 msgid "title: string"
-msgstr ""
+msgstr "title: string"
 
 #: ../advanced/search.rst:76
 msgid "group: object (group.name, ...)"
-msgstr ""
+msgstr "group: object (group.name, ...)"
 
 #: ../advanced/search.rst:77
 msgid "priority: object (priority.name, ...)"
-msgstr ""
+msgstr "priority: object (priority.name, ...)"
 
 #: ../advanced/search.rst:78
 msgid "state: object (state.name, ...)"
-msgstr ""
+msgstr "state: object (state.name, ...)"
 
 #: ../advanced/search.rst:79
 msgid "organization: object (organization.name, ...)"
-msgstr ""
+msgstr "organization: object (organization.name, ...)"
 
 #: ../advanced/search.rst:80
 msgid "owner: object (owner.firstname, owner.lastname, owner.email, ...)"
-msgstr ""
+msgstr "owner: object (owner.firstname, owner.lastname, owner.email, ...)"
 
 #: ../advanced/search.rst:81
 msgid ""
 "customer: object (customer.firstname, customer.lastname, customer.email, ...)"
 msgstr ""
+"customer: object (customer.firstname, customer.lastname, customer.email, ...)"
 
 #: ../advanced/search.rst:83
 msgid "first_response_at: timestamp"
-msgstr ""
+msgstr "first_response_at: timestamp"
 
 #: ../advanced/search.rst:84
 msgid "first_response_in_min: integer (business min till first response)"
-msgstr ""
+msgstr "first_response_in_min: integer (рабочих минут до первого ответа)"
 
 #: ../advanced/search.rst:85
 msgid "close_at: timestamp"
-msgstr ""
+msgstr "close_at: timestamp"
 
 #: ../advanced/search.rst:86
 msgid "close_in_min: integer (business min till close)"
-msgstr ""
+msgstr "close_in_min: integer (рабочих минут до закрытия)"
 
 #: ../advanced/search.rst:87
 msgid "last_contact_at: timestamp (last contact by customer or agent)"
-msgstr ""
+msgstr "last_contact_at: timestamp (последний контакт клиента или агента)"
 
 #: ../advanced/search.rst:88
 msgid "last_contact_agent_at: timestamp (last contact by agent)"
-msgstr ""
+msgstr "last_contact_agent_at: timestamp (последний контакт агента)"
 
 #: ../advanced/search.rst:89
 msgid "last_contact_customer_at: timestamp (last contact by customer)"
-msgstr ""
+msgstr "last_contact_customer_at: timestamp (последний контакт клиента)"
 
 #: ../advanced/search.rst:90
 msgid "create_article_type: string (email|phone|web|...)"
-msgstr ""
+msgstr "create_article_type: string (email|телефон|веб|...)"
 
 #: ../advanced/search.rst:91
 msgid "create_article_sender: string (Customer|Agent|System)"
-msgstr ""
+msgstr "create_article_sender: string (Клиент|Агент|Система)"
 
 #: ../advanced/search.rst:92
 msgid "article_count: integer"
-msgstr ""
+msgstr "article_count: integer"
 
 #: ../advanced/search.rst:93
 msgid "escalation_at: timestamp"
-msgstr ""
+msgstr "escalation_at: timestamp"
 
 #: ../advanced/search.rst:94
 msgid "pending_time: timestamp"
-msgstr ""
+msgstr "pending_time: timestamp"
 
 #: ../advanced/search.rst:97
 msgid "Article Attributes"
-msgstr ""
+msgstr "Атрибуты статьи"
 
 #: ../advanced/search.rst:99
 msgid "article.from: string"
-msgstr ""
+msgstr "article.from: string"
 
 #: ../advanced/search.rst:100
 msgid "article.to: string"
-msgstr ""
+msgstr "article.to: string"
 
 #: ../advanced/search.rst:101
 msgid "article.cc: string"
-msgstr ""
+msgstr "article.cc: string"
 
 #: ../advanced/search.rst:102
 msgid "article.subject: string"
-msgstr ""
+msgstr "article.subject: string"
 
 #: ../advanced/search.rst:103
 msgid "article.body: string"
-msgstr ""
+msgstr "article.body: string"
 
 #: ../advanced/search.rst:104
 msgid "article.attachment.title: string (filename of attachment)"
-msgstr ""
+msgstr "article.attachment.title: string (имя файла вложения)"
 
 #: ../advanced/search.rst:105
 msgid "article.attachment.content: string (content of attachment)"
-msgstr ""
+msgstr "article.attachment.content: string (содержимое вложения)"
 
 #: ../advanced/search.rst:106
 msgid "article.attachment.content_type: string (File type e.g. PDF)"
-msgstr ""
+msgstr "article.attachment.content_type: string (тип файла, например, PDF)"
 
 #: ../advanced/suggested-workflows.rst:2
 msgid "Suggested Workflows"
-msgstr ""
+msgstr "Предлагаемые рабочие процессы"
 
 #: ../advanced/suggested-workflows.rst:7
 msgid "Sharing Work on a Ticket"
-msgstr ""
+msgstr "Совместная работа над заявкой"
 
 #: ../advanced/suggested-workflows.rst:9
 msgid ""
@@ -1069,6 +1083,9 @@ msgid ""
 "one department!). In these cases, there are three ways to assign the work to "
 "the right people:"
 msgstr ""
+"Некоторые заявки требуют внимания более чем одного агента (или даже более "
+"чем одного отдела!). В таких случаях есть три способа поручить работу нужным "
+"людям:"
 
 #: ../advanced/suggested-workflows.rst:13
 msgid ""
@@ -1076,12 +1093,17 @@ msgid ""
 "in two </advanced/ticket-actions/split>`, then assign each ticket to its "
 "respective “group” (department)."
 msgstr ""
+"Если заявка действительно касается двух разных проблем, вы можете :doc:`"
+"разделить её на две </advanced/ticket-actions/split>`, а затем назначить "
+"каждую заявку соответствующей \"группе\" (отделу)."
 
 #: ../advanced/suggested-workflows.rst:16
 msgid ""
 "If you've done all you can on a ticket and it's now another agent's (or "
 "department's) responsibility, **reassign it** to a new owner (or group)."
 msgstr ""
+"Если Вы сделали все возможное по заявке, но теперь за нее отвечает другой "
+"агент (или отдел), **переназначьте её** на нового владельца (или группу)."
 
 #: ../advanced/suggested-workflows.rst:19
 msgid ""
@@ -1089,22 +1111,25 @@ msgid ""
 "them. (And if *you* want to get notifications for *someone else's* ticket, "
 "use the **subscribe button**.)"
 msgstr ""
+"Если Вам просто нужно мнение другого агента, вы можете **@упомянуть** его (А "
+"если *Вы* хотите получать уведомления о заявке другого человека, "
+"воспользуйтесь кнопкой **подписаться**.)"
 
 #: ../advanced/suggested-workflows.rst:24
-#, fuzzy
-#| msgid "Finding Tickets"
 msgid "Reassigning Tickets"
-msgstr "Поиск Тикетов"
+msgstr "Переназначение заявок"
 
 #: ../advanced/suggested-workflows.rst:30
 msgid "Reassigning tickets in the ticket pane"
-msgstr ""
+msgstr "Переназначение заявок на панели заявки"
 
 #: ../advanced/suggested-workflows.rst:30
 msgid ""
 "Reassign a ticket (via the *Group* and *Owner* settings) to let colleagues "
 "know you're done with your part."
 msgstr ""
+"Переназначьте заявку (через настройки *Группа* и *Владелец*), чтобы сообщить "
+"коллегам, что Вы закончили работу над своей частью."
 
 #: ../advanced/suggested-workflows.rst:33
 msgid ""
@@ -1113,6 +1138,10 @@ msgid ""
 "his notes, the rep then decides that this ticket needs to be passed onto "
 "customer service."
 msgstr ""
+"Предположим, в отдел продаж поступил звонок. Сотрудник отдела продаж "
+"принимает звонок, создает заявку и выясняет цены для клиента. Записав свои "
+"заметки, представитель решает, что эту заявку нужно передать в службу "
+"поддержки клиентов."
 
 #: ../advanced/suggested-workflows.rst:39
 msgid ""
@@ -1121,16 +1150,23 @@ msgid ""
 "service agents will be notified of the incoming ticket*, and the first "
 "available agent can assign herself to pick up where the sales rep left off."
 msgstr ""
+"Наш торговый представитель может просто снять с себя полномочия **владельца**"
+" заявки и переназначить ее **группе обслуживания клиентов**. *Все агенты "
+"службы поддержки получат уведомление о поступившей заявке*, и первый "
+"свободный агент сможет продолжить работу с того места, на котором "
+"остановился торговый представитель."
 
 #: ../advanced/suggested-workflows.rst:47
 msgid ""
 "Be sure to leave notes with as much information as possible for the next "
 "agent!"
 msgstr ""
+"Не забудьте оставить заметки, содержащие как можно больше информации для "
+"следующего агента!"
 
 #: ../advanced/suggested-workflows.rst:53
 msgid "@mentions & the Subscribe Button"
-msgstr ""
+msgstr "@упоминания и кнопка \"Подписаться\""
 
 #: ../advanced/suggested-workflows.rst:55
 msgid ""
@@ -1139,110 +1175,134 @@ msgid ""
 "important contract, and you want to make sure they have an A+ experience "
 "from start to finish."
 msgstr ""
+"Теперь предположим, что Вы переназначили эту заявку в службу поддержки "
+"клиентов. Вы больше не будете получать уведомления по этой заявке, но, "
+"возможно, это действительно важный контракт, и Вы хотите убедиться, что у "
+"них все будет на высшем уровне от начала и до конца."
 
 #: ../advanced/suggested-workflows.rst:60
 msgid ""
 "To enable notifications for a ticket that doesn't belong to you, simply "
 "click the **Subscribe** button at the bottom of the ticket pane:"
 msgstr ""
+"Чтобы включить уведомления для заявки, которая Вам не принадлежит, просто "
+"нажмите кнопку **Подписаться** в нижней части панели заявки:"
 
 #: ../advanced/suggested-workflows.rst:68
 msgid "Screencast of the Subscribe button feature"
-msgstr ""
+msgstr "Запись экрана функции кнопки \"Подписаться\""
 
 #: ../advanced/suggested-workflows.rst:68
 msgid ""
 "A list of all tickets you're subscribed to can be found in the **My "
 "mentioned Tickets** overview."
 msgstr ""
+"Список всех заявок, на которые Вы подписаны, можно найти в представлении **"
+"Мои упомянутые заявки**."
 
 #: ../advanced/suggested-workflows.rst:71
 msgid ""
 "Or, suppose you *don't* want to reassign the ticket to customer service—you "
 "just have one quick question for them, and then you can take it from there."
 msgstr ""
+"Или, предположим, Вы не хотите переназначать заявку в службу поддержки - у "
+"Вас есть только один короткий вопрос к ним, а дальше Вы сами разберётесь."
 
 #: ../advanced/suggested-workflows.rst:74
 msgid ""
 "To start sending someone else notifications for your own ticket, type ``@@`` "
 "in the message composer and select their name from the pop-up menu:"
 msgstr ""
+"Чтобы начать отправлять кому-то другому уведомления о Вашей заявке, введите "
+"``@@`` в области ввода сообщения и выберите его имя во всплывающем меню:"
 
 #: ../advanced/suggested-workflows.rst:82
 msgid "Screencast of the @mention feature"
-msgstr ""
+msgstr "Запись экрана функции @упоминания"
 
 #: ../advanced/suggested-workflows.rst:82
 msgid ""
 "@mentioning a colleague in a message will automatically subscribe them to "
 "your ticket."
 msgstr ""
+"@упоминание коллеги в сообщении автоматически подпишет его на вашу заявку."
 
 #: ../advanced/suggested-workflows.rst:85
 msgid "⚙️ **Notification settings**"
-msgstr ""
+msgstr "⚙️ **Настройки уведомлений**"
 
 #: ../advanced/suggested-workflows.rst:87
 msgid ""
 "Check your :doc:`/extras/profile-and-settings` to customize how you receive "
 "notifications."
 msgstr ""
+"Проверьте раздел :doc:`/extras/profile-and-settings`, чтобы настроить "
+"получение уведомлений."
 
 #: ../advanced/suggested-workflows.rst:90
 msgid "**Can't see a ticket, in which a colleague @mentioned you?**"
-msgstr ""
+msgstr "**Не можете посмотреть заявку, в которой коллега @упомянул Вас?**"
 
 #: ../advanced/suggested-workflows.rst:92
 msgid ""
 "Is the ticket assigned to a group that you don't belong to? @mentions and "
 "subscriptions only work for tickets that you already have access to."
 msgstr ""
+"Заявка назначена на группу, в которой Вы не состоите? @упоминания и подписки "
+"работают только для заявок, к которым у Вас есть доступ."
 
 #: ../advanced/suggested-workflows.rst:97
 msgid "Quickly Assign in Ticket Listings"
-msgstr ""
+msgstr "Быстрое назначение в списках заявок"
 
 #: ../advanced/suggested-workflows.rst:99
 msgid ""
 "Within overviews and detailed searches you can run bulk operations on "
 "tickets. This means you can adjust the following ticket information:"
 msgstr ""
+"В представлениях и результатах поиска Вы можете выполнять массовые операции "
+"над заявками. Это означает, что Вы можете изменить следующую информацию о "
+"заявке:"
 
 #: ../advanced/suggested-workflows.rst:102
 msgid "group"
-msgstr ""
+msgstr "группа"
 
 #: ../advanced/suggested-workflows.rst:103
 msgid "owner"
-msgstr ""
+msgstr "владелец"
 
 #: ../advanced/suggested-workflows.rst:104
 msgid "state (with pending time if applicable)"
-msgstr ""
+msgstr "состояние (с временем ожидания, если применимо)"
 
 #: ../advanced/suggested-workflows.rst:105
 msgid "priority"
-msgstr ""
+msgstr "приоритет"
 
 #: ../advanced/suggested-workflows.rst:107
 msgid ""
 "After pressing \"Confirm\", Zammad also allows you to provide an internal or "
 "public note of why you adjusted the settings."
 msgstr ""
+"После нажатия кнопки \"Подтвердить\" Zammad также позволит Вам сделать "
+"внутреннюю или публичную заметку о том, почему Вы изменили настройки."
 
 #: ../advanced/suggested-workflows.rst:110
 msgid ""
 "Zammad *will not* ask for :doc:`time accounting values </advanced/time-"
 "accounting>` in bulk actions."
 msgstr ""
+"Zammad *не будет* запрашивать :doc:`значения учёта рабочего времени </"
+"advanced/time-accounting>` в массовых действиях."
 
 #: ../advanced/suggested-workflows.rst:120
 msgid "Bulk action via drop-downs:"
-msgstr ""
+msgstr "Массовые действия с помощью выпадающих списков:"
 
 #: ../advanced/suggested-workflows.rst:0
 msgid "Bulk operations in overviews and detailed searches"
-msgstr ""
+msgstr "Массовые операции в представлениях и результатах поиска"
 
 #: ../advanced/suggested-workflows.rst:118
 msgid ""
@@ -1250,20 +1310,26 @@ msgid ""
 "below drop-downs to change ticket settings, press confirm and provide a note "
 "if you'd like."
 msgstr ""
+"Используйте чекбоксы в списке заявок, чтобы выбрать несколько заявок. Теперь "
+"воспользуйтесь выпадающими списками, чтобы изменить настройки заявки, "
+"нажмите кнопку подтверждения и, если хотите, укажите примечание."
 
 #: ../advanced/suggested-workflows.rst:134
 msgid "Bulk action via drag and drop:"
-msgstr ""
+msgstr "Массовые действия с помощью перетаскивания:"
 
 #: ../advanced/suggested-workflows.rst:123
 msgid "**🤓 You can change owners and groups even faster 🚀**"
-msgstr ""
+msgstr "**🤓 Вы можете менять владельцев и группы еще быстрее 🚀**"
 
 #: ../advanced/suggested-workflows.rst:0
 msgid ""
 "Drag selected tickets and drop then on a group or agent to change\n"
 "ticket group / owner"
 msgstr ""
+"Перетащите выбранные заявки и переместите их на группу или агента, чтобы "
+"изменить\n"
+"группа/владелец заявки"
 
 #: ../advanced/suggested-workflows.rst:130
 msgid ""
@@ -1272,59 +1338,69 @@ msgid ""
 "either just a group or agents. This operation allows you to quickly change "
 "the group and owner without further hassle!"
 msgstr ""
+"Вместо того чтобы использовать выпадающие списки в нижней части Zammad, вы "
+"можете перетаскивать заявки. Появится новое модальное окно, в котором Вы "
+"сможете выбрать группу или агентов. Эта операция позволит Вам быстро сменить "
+"группу и владельца без лишних хлопот!"
 
 #: ../advanced/suggested-workflows.rst:135
 msgid "This functionality is only available in ticket overviews."
-msgstr ""
+msgstr "Эта функция доступна только в представлениях заявок."
 
 #: ../advanced/tabs.rst:2
 msgid "Tabs"
-msgstr ""
+msgstr "Вкладки"
 
 #: ../advanced/tabs.rst:4
 msgid ""
 "As you click through Zammad, you will see a list of entries appear in the "
 "main menu area. These are your **open tabs.**"
 msgstr ""
+"По мере того как вы будете переходить по Zammad, в области главного меню "
+"будет появляться список записей. Это ваши **открытые вкладки.**"
 
 #: ../advanced/tabs.rst:7
 msgid ""
 "You can freely switch between open tabs without losing your work - all "
 "unsaved changes are automatically backed up to the server."
 msgstr ""
+"Вы можете свободно переключаться между открытыми вкладками, не теряя своей "
+"работы - все несохраненные изменения автоматически сохраняются на сервере."
 
 #: ../advanced/tabs.rst:13
 msgid "Sample view of Tabs"
-msgstr ""
+msgstr "Примерный вид вкладок"
 
 #: ../advanced/tabs.rst:13
 msgid ""
 "Tabs appear in the main menu as you visit different parts of the application."
 msgstr ""
+"Вкладки появляются в главном меню, когда Вы посещаете различные части "
+"приложения."
 
 #: ../advanced/tabs.rst:16
 msgid "**What items open in a new “tab”?**"
-msgstr ""
+msgstr "**Какие элементы открываются в новой “вкладке”?**"
 
 #: ../advanced/tabs.rst:18
 msgid "Existing tickets"
-msgstr ""
+msgstr "Существующие заявки"
 
 #: ../advanced/tabs.rst:19
 msgid "New tickets"
-msgstr ""
+msgstr "Новые заявки"
 
 #: ../advanced/tabs.rst:20
 msgid "Users"
-msgstr ""
+msgstr "Пользователи"
 
 #: ../advanced/tabs.rst:21 ../extras/organizations.rst:2
 msgid "Organizations"
-msgstr ""
+msgstr "Организации"
 
 #: ../advanced/tabs.rst:22
 msgid "Omnisearch"
-msgstr ""
+msgstr "Результаты поиска"
 
 #: ../advanced/tabs.rst:24 ../basics/find-ticket/browse.rst:27
 #: ../basics/find-ticket/search.rst:33 ../basics/service-ticket/create.rst:48
@@ -1337,6 +1413,8 @@ msgid ""
 ":doc:`Ticket states </basics/service-ticket/settings/state>` are **color-"
 "coded:**"
 msgstr ""
+":doc:`Состояния заявки </basics/service-ticket/settings/state>` имеют **"
+"цветовую маркировку:**"
 
 #: ../snippets/ticket-state-type-circles.rst:4
 #: ../snippets/ticket-state-type-circles.rst:6 ../extras/knowledge-base.rst:214
@@ -1358,6 +1436,7 @@ msgstr "|blk|"
 #: ../snippets/ticket-state-type-circles.rst:9
 msgid "**Postponed** (Marked as pending; no immediate action required.)"
 msgstr ""
+"**Отложено** (Отмечено как отложенное; немедленных действий не требуется.)"
 
 #: ../snippets/ticket-state-type-circles.rst:11
 msgid "|ylw|"
@@ -1369,25 +1448,27 @@ msgstr "**Новый / Открытый** (Готов для действий.)"
 
 #: ../snippets/ticket-state-type-circles.rst:14
 msgid "|red|"
-msgstr ""
+msgstr "|red|"
 
 #: ../snippets/ticket-state-type-circles.rst:15
 msgid "**Escalated** (Requires urgent attention.)"
-msgstr ""
+msgstr "**Эскалация** (Требует срочного внимания.)"
 
 #: ../advanced/tabs.rst:31
 msgid ""
 "A **pulsing dot** means that a ticket has new activity since you last viewed "
 "it."
 msgstr ""
+"**Пульсирующая точка** означает, что в заявке появилась новая активность с "
+"тех пор, как Вы просматривали ее в последний раз."
 
 #: ../advanced/tabs.rst:33
 msgid "Drag and drop tabs to rearrange them."
-msgstr ""
+msgstr "Перетаскивайте вкладки, чтобы изменить их расположение."
 
 #: ../advanced/tabs.rst:36
 msgid "Tab Behavior in Ticket Zooms"
-msgstr ""
+msgstr "Поведение вкладок при работе с заявкой"
 
 #: ../advanced/tabs.rst:38
 msgid ""
@@ -1396,50 +1477,65 @@ msgid ""
 "administrator globally. You can overrule this setting based on your personal "
 "preference."
 msgstr ""
+"Возможно, Вы уже заметили кнопку \"Остаться на вкладке\" рядом с \"Обновить\""
+" в правом нижнем углу. Такое поведение вкладки может быть глобально "
+"настроено Вашим администратором. Вы можете изменить эту настройку, исходя из "
+"личных предпочтений."
 
 #: ../advanced/tabs.rst:None
 msgid "Tab behavior can be adjusted in tickets manually"
-msgstr ""
+msgstr "Поведение вкладок можно настроить в заявках вручную"
 
 #: ../advanced/tabs.rst:47
 msgid ""
 "To overrule your administrator's settings, simply choose the action you "
 "prefer. Zammad will remember this preference until you change its setting."
 msgstr ""
+"Чтобы изменить настройки администратора, просто выберите действие, которое "
+"Вы предпочитаете. Zammad будет помнить об этом предпочтении, пока Вы не "
+"измените эту настройку."
 
 #: ../advanced/tabs.rst:52
 msgid "Close tab"
-msgstr ""
+msgstr "Закрыть вкладку"
 
 #: ../advanced/tabs.rst:51
 msgid ""
 "Upon updating the ticket, Zammad will automatically close the tab. You'll be "
 "returned to the last view that was open."
 msgstr ""
+"После обновления заявки Zammad автоматически закроет вкладку. Вы вернетесь к "
+"последнему открытому виду."
 
 #: ../advanced/tabs.rst:58
 msgid "Close tab on ticket close"
-msgstr ""
+msgstr "Закрыть вкладку при закрытии заявки"
 
 #: ../advanced/tabs.rst:55
 msgid ""
 "Ticket tabs will be closed only if you change the state to \"closed\" upon "
 "ticket update."
 msgstr ""
+"Вкладки заявок будут закрыты, только если Вы измените состояние заявки на "
+"\"закрыто\" при обновлении."
 
 #: ../advanced/tabs.rst:58
 msgid "This does not apply for pending states that end in closed states."
 msgstr ""
+"Это не относится к состояниям ожидания, которые заканчиваются закрытыми "
+"состояниями."
 
 #: ../advanced/tabs.rst:66
 msgid "Next in overview"
-msgstr ""
+msgstr "Далее в представлении"
 
 #: ../advanced/tabs.rst:61
 msgid ""
 "If you opened a ticket from any overview, Zammad will jump to the next "
 "ticket in said overview. Zammad recycles the open tab."
 msgstr ""
+"Если Вы открыли заявку из любого представления, Zammad перейдет к следующей "
+"заявке в этом представлении. Zammad повторно использует открытую вкладку."
 
 #: ../advanced/tabs.rst:64
 msgid ""
@@ -1447,22 +1543,25 @@ msgid ""
 "Zammad will ignore the setting if you opened the ticket directly and fall "
 "back to ``Stay on tab``."
 msgstr ""
+"Эта опция доступна только в том случае, если Вы открыли заявку из "
+"представления. Zammad проигнорирует настройку, если Вы открыли заявку "
+"напрямую, и вернется к ``Остаться на вкладке``."
 
 #: ../advanced/tabs.rst:70
 msgid "Stay on tab"
-msgstr ""
+msgstr "Остаться на вкладке"
 
 #: ../advanced/tabs.rst:69
 msgid "Updating the ticket doesn't have any effect on the tab."
-msgstr ""
+msgstr "Обновление заявки не оказывает никакого влияния на вкладку."
 
 #: ../advanced/tabs.rst:71
 msgid "*This is the default setting in Zammad installations.*"
-msgstr ""
+msgstr "*Это настройка по умолчанию при установке Zammad.*"
 
 #: ../advanced/text-modules.rst:2
 msgid "Working with Text Modules"
-msgstr ""
+msgstr "Работа с текстовыми модулями"
 
 #: ../advanced/text-modules.rst:4
 msgid ""
@@ -1471,6 +1570,10 @@ msgid ""
 "hand. You can simply choose a fitting text module and insert it into the e-"
 "mail."
 msgstr ""
+"Zammad предлагает так называемые текстовые модули. Текстовые модули помогут "
+"Вам улучшить рабочий процесс, так как Вам не придётся вручную набирать ответ "
+"на каждую заявку. Вы можете просто выбрать подходящий текстовый модуль и "
+"вставить его в сообщение."
 
 #: ../advanced/text-modules.rst:9
 msgid ""
@@ -1478,79 +1581,99 @@ msgid ""
 "If you found the right text module, just press enter or click with your left "
 "mouse and Zammad will insert the modules Text at the place your cursor is."
 msgstr ""
+"Чтобы открыть доступные текстовые модули, просто введите ``::`` в сообщении. "
+"Если Вы нашли нужный текстовый модуль, просто нажмите Enter или щелкните на "
+"него левой кнопкой мыши, и Zammad вставит текст модуля в то место, где "
+"находится Ваш курсор."
 
 #: ../advanced/text-modules.rst:15
 msgid ""
 "You can either scroll through all modules (mouse or direction keys), type "
 "the module name or enter a keyword (if keywords are set)."
 msgstr ""
+"Вы можете либо прокрутить все модули (мышью или клавишами направления), либо "
+"ввести название модуля, либо ввести ключевое слово (если ключевые слова "
+"установлены)."
 
 #: ../advanced/text-modules.rst:21
-#, fuzzy
-#| msgid "Text Editing"
 msgid "Text Modules Missing?"
-msgstr "Редактирование текста"
+msgstr "Текстовые модули отсутствуют?"
 
 #: ../advanced/text-modules.rst:23
 msgid "You noticed that some text modules don't always appear?"
-msgstr ""
+msgstr "Вы заметили, что некоторые текстовые модули не всегда отображаются?"
 
 #: ../advanced/text-modules.rst:25
 msgid ""
 "Text modules can be tied to **groups**: that is, they only become active "
 "once the ticket you're working on has been assigned to the appropriate group."
 msgstr ""
+"Текстовые модули могут быть привязаны к **группам**: то есть они становятся "
+"активными только после того, как заявка, над которой Вы работаете, будет "
+"назначена соответствующей группе."
 
 #: ../advanced/text-modules.rst:32
 msgid "Group-dependent text modules"
-msgstr ""
+msgstr "Текстовые модули, зависящие от группы"
 
 #: ../advanced/text-modules.rst:32
 msgid ""
 "Text modules are updated immediately when a new group has been selected—no "
 "need to click **Update**."
 msgstr ""
+"Текстовые модули обновляются сразу после выбора новой группы - не нужно "
+"нажимать кнопку **Обновить**."
 
 #: ../advanced/text-modules.rst:35
 msgid ""
 "How do you know which groups go with which text modules? Ask your "
 "administrator!"
 msgstr ""
+"Как Вы узнаете, какие группы сочетаются с какими текстовыми модулями? "
+"Спросите у своего администратора!"
 
 #: ../advanced/text-modules.rst:38
 msgid "Text Modules on Ticket Creation"
-msgstr ""
+msgstr "Текстовые модули при создании заявки"
 
 #: ../advanced/text-modules.rst:40
 msgid ""
 "You can use text modules on ticket creation as well. On ticket creation, "
 "our :ref:`ticket_templates` might get handy too."
 msgstr ""
+"Вы можете использовать текстовые модули и при создании заявки. При создании "
+"заявки также могут пригодиться наши :ref:`ticket_templates`."
 
 #: ../advanced/text-modules.rst:44
 msgid "Customizing Text Modules"
-msgstr ""
+msgstr "Настройка текстовых модулей"
 
 #: ../advanced/text-modules.rst:46
 msgid ""
 "Administrators can learn more about customizing text modules :admin-docs:"
 "`here </manage/text-modules.html>`."
 msgstr ""
+"Администраторы могут узнать больше о настройке текстовых модулей :admin-"
+"docs:`здесь </manage/text-modules.html>`."
 
 #: ../advanced/ticket-actions.rst:2
 msgid "Ticket Actions"
-msgstr ""
+msgstr "Действия с заявками"
 
 #: ../advanced/ticket-actions.rst:4
+#, fuzzy
 msgid ""
 "In the :doc:`servicing tickets section </basics/service-ticket>` you learned "
 "the base handling of tickets. However, there are additional actions you can "
 "perform:"
 msgstr ""
+"В разделе :doc:`servicing tickets </basics/service-ticket>` Вы узнали об "
+"основных способах работы с заявками. Однако есть и дополнительные действия, "
+"которые Вы можете выполнять:"
 
 #: ../advanced/ticket-actions/link.rst:2
 msgid "Linking Tickets"
-msgstr ""
+msgstr "Связывание заявок"
 
 #: ../advanced/ticket-actions/link.rst:4
 msgid ""
@@ -1559,10 +1682,15 @@ msgid ""
 "customer complaints about the same shipment. :doc:`Merged <merge>` and :doc:"
 "`split <split>` tickets are automatically linked."
 msgstr ""
+"Когда возникают заявки по связанным вопросам, их можно связать друг с "
+"другом, чтобы было удобнее обращаться к ним. Например, это может быть "
+"полезно, если у Вас есть несколько жалоб клиентов на один и тот же груз. "
+"Заявки :doc:`Объединенные<merge>` и :doc:`разделённые<split>` автоматически "
+"связываются."
 
 #: ../advanced/ticket-actions/link.rst:16
 msgid "Link types"
-msgstr ""
+msgstr "Типы ссылок"
 
 #: ../advanced/ticket-actions/link.rst:10
 msgid ""
@@ -1571,41 +1699,52 @@ msgid ""
 "The first pair is used for split and merged tickets. The normal link is "
 "useful when there is no logical hierarchy between tickets."
 msgstr ""
+"Существуют различные типы связей между заявками, как Вы уже могли видеть в "
+":doc:`merge` или :doc:`plit`: родитель/потомок и обычные связи. Первая пара "
+"используется для разделенных и объединенных заявок. Обычная ссылка полезна, "
+"когда между заявками нет логической иерархии."
 
 #: ../advanced/ticket-actions/link.rst:15
 msgid ""
 "However, if you have a main issue and want to create sub tasks, you could "
 "link to the main one as a parent of the sub tickets."
 msgstr ""
+"Однако если у Вас есть главная задача и Вы хотите создать подзадачи, Вы "
+"можете связать главную задачу с подзадачами указав её как родительскую."
 
 #: ../advanced/ticket-actions/link.rst:26
 msgid "How to link"
-msgstr ""
+msgstr "Как сделать ссылку"
 
 #: ../advanced/ticket-actions/link.rst:19
 msgid ""
 "Make sure to have the ticket side panel open. Under the \"Tags\" section you "
 "can find the \"Links\" section:"
 msgstr ""
+"Убедитесь, что боковая панель заявки открыта. Под разделом \"Теги\" Вы "
+"найдете раздел \"Ссылки\":"
 
 #: ../advanced/ticket-actions/link.rst:0
 #: ../advanced/ticket-actions/split.rst:None
 msgid "Ticket pane: Links"
-msgstr ""
+msgstr "Панель заявки: Ссылки"
 
 #: ../advanced/ticket-actions/link.rst:26
 msgid "Click the *➕ Add Link* button to access the link dialog."
 msgstr ""
+"Нажмите кнопку *➕ Добавить ссылку*, чтобы открыть окно добавления ссылки."
 
 #: ../advanced/ticket-actions/link.rst:45 ../advanced/ticket-actions/link.rst:0
 msgid "Link dialog"
-msgstr ""
+msgstr "Окно добавления ссылки"
 
 #: ../advanced/ticket-actions/link.rst:29
 msgid ""
 "You can enter the ticket number of the ticket you want to link to (see 1). "
 "Alternatively, you can choose from the list below (see 2)."
 msgstr ""
+"Вы можете ввести номер заявки, на которую Вы хотите добавить ссылку (см. 1). "
+"Кроме того, Вы можете выбрать заявку из списка ниже (см. 2)."
 
 #: ../advanced/ticket-actions/link.rst:33
 #: ../advanced/ticket-actions/merge.rst:35
@@ -1614,28 +1753,37 @@ msgid ""
 "customer tickets\". You can see your last viewed tickets under \"Recently "
 "viewed tickets\" anyway."
 msgstr ""
+"Если у клиента уже есть заявка, она будет отображаться в разделе \"Последние "
+"заявки клиента\". Также Вы всегда можете увидеть последние просмотренные "
+"Вами заявки в разделе \"Недавно просмотренные заявки\"."
 
 #: ../advanced/ticket-actions/link.rst:37
 msgid ""
 "Additionally, you can choose the link type from the drop down menu. You can "
 "link to one or more tickets for each type."
 msgstr ""
+"Кроме того, Вы можете выбрать тип ссылки из выпадающего меню. Для каждого "
+"типа Вы можете установить ссылку на одну или несколько заявок."
 
 #: ../advanced/ticket-actions/link.rst:45
 msgid ""
 "After entering a ticket number or choosing one of the offered tickets from "
 "the list, click on the submit button and the tickets will be linked."
 msgstr ""
+"После ввода номера заявки или выбора одной из предложенных заявок из списка "
+"нажмите на кнопку отправки, и заявки будут связаны между собой."
 
 #: ../advanced/ticket-actions/merge.rst:2 ../basics/zammad-glossary.rst:458
 msgid "Merging Tickets"
-msgstr ""
+msgstr "Объединение заявок"
 
 #: ../advanced/ticket-actions/merge.rst:4
 msgid ""
 "If you have two or more tickets about the same issue, you may want to merge "
 "those tickets into one."
 msgstr ""
+"Если у Вас есть две или более заявок по одному и тому же вопросу, Вы можете "
+"объединить их в одну заявку."
 
 #: ../advanced/ticket-actions/merge.rst:7
 msgid ""
@@ -1644,16 +1792,22 @@ msgid ""
 "because the customer sends you a completely new email instead of answering "
 "in the existing thread)."
 msgstr ""
+"Это может произойти, если клиент отправил Вам новое письмо, которое не может "
+"быть отнесено к существующей заявке (например, ссылка на заявку отсутствует, "
+"потому что клиент отправил Вам совершенно новое письмо, а не ответил в "
+"существующей теме)."
 
 #: ../advanced/ticket-actions/merge.rst:21
 msgid "What is merged where?"
-msgstr ""
+msgstr "Что объединяется?"
 
 #: ../advanced/ticket-actions/merge.rst:13
 msgid ""
 "Merging a ticket migrates all messages and notes of the ticket from where "
 "you select the merging into the selected one."
 msgstr ""
+"Объединение заявок переносит все сообщения и заметки из заявки, в которой Вы "
+"активировали объединение, в выбранную."
 
 #: ../advanced/ticket-actions/merge.rst:16
 msgid ""
@@ -1663,23 +1817,28 @@ msgid ""
 "is to open the duplicate ticket and execute the merging from there so it "
 "will be merged into the original."
 msgstr ""
+"Предположим, что Вы уже работали над заявкой и получили еще одну заявку по "
+"тому же вопросу и хотите объединить их. Назовем заявку, над которой Вы уже "
+"работали, *оригинальной*, а новую - *дубликатом*. Тогда нужно открыть "
+"дубликат заявки и выполнить объединение оттуда, чтобы она была объединена с "
+"оригиналом."
 
 #: ../advanced/ticket-actions/merge.rst:28
 msgid "How to merge tickets?"
-msgstr ""
+msgstr "Как объединить заявки?"
 
 #: ../advanced/ticket-actions/merge.rst:24
 msgid "To merge a ticket, access the **Ticket ▾** submenu in the ticket pane."
 msgstr ""
+"Чтобы объединить заявку, откройте подменю **Заявка ▾** на панели заявки."
 
 #: ../advanced/ticket-actions/merge.rst:0
 msgid "Ticket menu with highlighted \"merge\""
-msgstr ""
+msgstr "Меню заявки с выделенным \"Объединить\""
 
 #: ../advanced/ticket-actions/merge.rst:40
-#, fuzzy
 msgid "Merge dialog"
-msgstr "Макрос"
+msgstr "Окно объединения"
 
 #: ../advanced/ticket-actions/merge.rst:31
 msgid ""
@@ -1687,42 +1846,48 @@ msgid ""
 "current one into (see 1). Alternatively, you can choose from the list below "
 "(see 2)."
 msgstr ""
+"Вы можете ввести номер заявки, с которой нужно объединить текущую заявку ("
+"см. 1). Кроме того, Вы можете выбрать заявку из списка ниже (см. 2)."
 
 #: ../advanced/ticket-actions/merge.rst:39
 msgid ""
 "After entering a ticket number or choosing one of the offered tickets from "
 "the list, click on the submit button and the tickets will be merged."
 msgstr ""
+"После ввода номера заявки или выбора одной из предложенных заявок из списка, "
+"нажмите кнопку отправки, и заявки будут объединены."
 
 #: ../advanced/ticket-actions/merge.rst:None
 msgid "Merge ticket dialog"
-msgstr ""
+msgstr "Окно объединения заявок"
 
 #: ../advanced/ticket-actions/merge.rst:52
 msgid "Result after merging"
-msgstr ""
+msgstr "Результат после объединения"
 
 #: ../advanced/ticket-actions/merge.rst:48
 msgid ""
 "The articles are moved into the chosen tickets. The ticket in which you "
 "executed the merging still exists with the following changes:"
 msgstr ""
+"Статьи перемещаются в выбранную заявку. Заявка, в которой Вы выполнили "
+"объединение, по-прежнему останется в Zammad со следующими изменениями:"
 
 #: ../advanced/ticket-actions/merge.rst:51
 msgid "The articles have been replaced by a \"merged\" label"
-msgstr ""
+msgstr "Статьи будут заменены \"объединенной\" меткой"
 
 #: ../advanced/ticket-actions/merge.rst:52
 msgid "The state has changed to \"merged\""
-msgstr ""
+msgstr "Состояние изменится на \"объединено\""
 
 #: ../advanced/ticket-actions/merge.rst:53
 msgid "The ticket is :doc:`linked <link>` to its \"parent\" ticket"
-msgstr ""
+msgstr "Заявка будет :doc:`связана <link>` со своей \"родительской\" заявкой"
 
 #: ../advanced/ticket-actions/split.rst:2
 msgid "Splitting Tickets"
-msgstr ""
+msgstr "Разделение заявок"
 
 #: ../advanced/ticket-actions/split.rst:4
 msgid ""
@@ -1730,42 +1895,53 @@ msgid ""
 "split it in two or more separate tickets. For example this might be the case "
 "if a customer has a technical question and wants to place an order."
 msgstr ""
+"Если у Вас есть заявка, касающаяся более чем одного вопроса, Вы можете "
+"разделить ее на две или более отдельных заявок. Например, если клиент задает "
+"технический вопрос и хочет оформить заказ."
 
 #: ../advanced/ticket-actions/split.rst:8
 msgid ""
 "To split a ticket, simply click on the \"split\" button under the article "
 "you want to split off:"
 msgstr ""
+"Чтобы разделить заявку, просто нажмите на кнопку \"Разделить\" под статьей, "
+"которую Вы хотите разделить:"
 
 #: ../advanced/ticket-actions/split.rst:None
 msgid "Split ticket button"
-msgstr ""
+msgstr "Кнопка разделения заявки"
 
 #: ../advanced/ticket-actions/split.rst:15
 msgid ""
 "After clicking on the \"split\" button, a dialog for creating a new ticket "
 "is presented to you:"
 msgstr ""
+"После нажатия на кнопку \"Разделить\" Вам откроется окно создания новой "
+"заявки:"
 
 #: ../advanced/ticket-actions/split.rst:None
 msgid "Split ticket dialog"
-msgstr ""
+msgstr "Окно разделения заявки"
 
 #: ../advanced/ticket-actions/split.rst:23
 msgid ""
 "It is prefilled with the content of the existing article. Remember to select "
 "the type (call/email)."
 msgstr ""
+"Оно заполняется содержимым существующей статьи. Не забудьте выбрать тип "
+"(звонок/электронная почта)."
 
 #: ../advanced/ticket-actions/split.rst:26
 msgid ""
 "The original ticket is :doc:`linked <link>` to the new one, as you can see "
 "in the ticket side panel:"
 msgstr ""
+"Оригинальная заявка :doc:`связана <link>` с новой, что можно увидеть на "
+"боковой панели заявки:"
 
 #: ../advanced/ticket-templates.rst:4
 msgid "Ticket Templates"
-msgstr ""
+msgstr "Шаблоны заявок"
 
 #: ../advanced/ticket-templates.rst:6
 msgid ""
@@ -1773,14 +1949,17 @@ msgid ""
 "attributes, use **ticket templates** to fill them in with a single click "
 "next time."
 msgstr ""
+"Если Вы создаете множество заявок с одинаковыми базовыми атрибутами, "
+"используйте **шаблоны заявок**, чтобы в следующий раз заполнить их одним "
+"щелчком мыши."
 
 #: ../advanced/ticket-templates.rst:13
 msgid "Ticket template selection in new ticket dialog"
-msgstr ""
+msgstr "Выбор шаблона заявки в окне \"Новая заявка\""
 
 #: ../advanced/ticket-templates.rst:13
 msgid "Use the ticket pane to load ticket templates."
-msgstr ""
+msgstr "Используйте панель заявки для выбора шаблона заявок."
 
 #: ../advanced/ticket-templates.rst:15
 msgid ""
@@ -1788,16 +1967,21 @@ msgid ""
 "*Templates* column. If Zammad has any templates for you to apply, you'll be "
 "provided with a drop down list to choose from."
 msgstr ""
+"В окне *Новая заявка* воспользуйтесь вкладкой 🗒️ справа, чтобы отобразить "
+"колонку *Шаблоны*. Если у Zammad есть шаблоны, которые Вы можете применить, "
+"Вам будет предоставлен выпадающий список для выбора."
 
 #: ../advanced/ticket-templates.rst:19
 msgid ""
 "Select a fitting template and press *Apply*. The configured ticket fields "
 "will be populated with the data from the template."
 msgstr ""
+"Выберите подходящий шаблон и нажмите *Применить*. Поля заявки будут "
+"заполнены данными из шаблона."
 
 #: ../advanced/ticket-templates.rst:29
 msgid "Field collisions"
-msgstr ""
+msgstr "Конфликты полей"
 
 #: ../advanced/ticket-templates.rst:23
 msgid ""
@@ -1806,36 +1990,45 @@ msgid ""
 "be filled by the template, Zammad *will not* overwrite the field with the "
 "template data."
 msgstr ""
+"Начиная с версии 5.3, Zammad может обнаруживать \"конфликты полей\". Это "
+"означает: если Вы ранее ввели данные в поле, которое должно быть заполнено "
+"шаблоном, Zammad *не перезапишет* это поле данными шаблона."
 
 #: ../advanced/ticket-templates.rst:28
 msgid ""
 "Instead it will keep your version of the field. This allows you to e.g. fill "
 "in the customer before applying the template. 🎉"
 msgstr ""
+"Вместо этого он сохранит Вашу версию поля. Это, например, позволит Вам "
+"указать клиента до применения шаблона. 🎉"
 
 #: ../advanced/ticket-templates.rst:39
 msgid "Can't add or adjust templates?"
-msgstr ""
+msgstr "Не можете добавить или настроить шаблоны?"
 
 #: ../advanced/ticket-templates.rst:32
 msgid ""
 "Managing templates requires additional permissions. Please ask your "
 "administrator to provide you with the needed permission."
 msgstr ""
+"Для управления шаблонами требуются дополнительные разрешения. Обратитесь к "
+"своему администратору, чтобы он предоставил Вам необходимые разрешения."
 
 #: ../advanced/ticket-templates.rst:35
 msgid ""
 "Learn more about ticket templates :admin-docs:`in the admin documentation </"
 "manage/templates.html>`."
 msgstr ""
+"Узнайте больше о шаблонах заявок :admin-docs:` в документации администратора "
+"</manage/templates.html>`."
 
 #: ../advanced/ticket-templates.rst:38
 msgid "This permission was introduced with Zammad 5.3."
-msgstr ""
+msgstr "Это разрешение было добавлено в Zammad 5.3."
 
 #: ../advanced/time-accounting.rst:2
 msgid "Time Accounting"
-msgstr ""
+msgstr "Учёт рабочего времени"
 
 #: ../advanced/time-accounting.rst:4
 msgid ""
@@ -1843,16 +2036,22 @@ msgid ""
 "of how much time you spend on any given ticket, customer or client "
 "organization."
 msgstr ""
+"Zammad поддерживает подробный учет рабочего времени, чтобы помочь "
+"администраторам отслеживать сколько времени Вы тратите на ту или иную "
+"заявку, клиента или организацию."
 
 #: ../advanced/time-accounting.rst:None
 msgid "Time Accounting Dialog"
-msgstr ""
+msgstr "Окно \"Учёт рабочего времени\""
 
 #: ../advanced/time-accounting.rst:11
 msgid ""
 "If the time accounting is enabled, this dialog will appear each time you "
 "update a ticket. Enter how much time you spent on it."
 msgstr ""
+"Если учёт рабочего времени включен, это окно будет появляться каждый раз, "
+"когда Вы обновляете заявку. Введите, сколько времени Вы потратили на её "
+"выполнение."
 
 #: ../advanced/time-accounting.rst:14
 msgid ""
@@ -1860,10 +2059,14 @@ msgid ""
 "ticket, that means your administrator hasn't enabled it yet. Administrators "
 "can learn more :admin-docs:`here </manage/time-accounting.html>`."
 msgstr ""
+"Эта функция является **опциональной**; если Вы не видите это окно при "
+"обновлении заявки, значит, Ваш администратор еще не включил её. "
+"Администраторы могут узнать больше :admin-docs:`здесь </manage/time-"
+"accounting.html>`."
 
 #: ../advanced/time-accounting.rst:20
 msgid "Units"
-msgstr ""
+msgstr "Единицы измерения"
 
 #: ../advanced/time-accounting.rst:22
 msgid ""
@@ -1871,14 +2074,18 @@ msgid ""
 "administrator may decide to show an optional label next to the field to hint "
 "you and your colleagues which unit is assumed."
 msgstr ""
+"Учётное время всегда записывается в виде чисел без единиц измерения. Однако "
+"Ваш администратор может решить отобразить дополнительную метку рядом с "
+"полем, чтобы подсказать Вам и Вашим коллегам, какая единица измерения "
+"принята."
 
 #: ../advanced/time-accounting.rst:None
 msgid "Time Accounting Unit"
-msgstr ""
+msgstr "Единица измерения учёта рабочего времени"
 
 #: ../advanced/time-accounting.rst:31
 msgid "Activity Types"
-msgstr ""
+msgstr "Типы деятельности"
 
 #: ../advanced/time-accounting.rst:33
 msgid ""
@@ -1886,10 +2093,13 @@ msgid ""
 "This is an **optional** feature which shows a list of activities as a "
 "selectable list."
 msgstr ""
+"**Типы деятельности** используются для группировки записей учёта рабочего "
+"времени. Это **опциональная** функция, которая отображает список типов "
+"деятельности в виде списка с возможностью выбора."
 
 #: ../advanced/time-accounting.rst:None
 msgid "Time Accounting Activity Type"
-msgstr ""
+msgstr "Тип деятельности учёта рабочего времени"
 
 #: ../advanced/time-accounting.rst:41
 msgid ""
@@ -1898,10 +2108,14 @@ msgid ""
 "remove the selection for general accounted time that is not supposed to be "
 "grouped together."
 msgstr ""
+"Просто выберите наиболее близкий тип деятельности, для которого Вы "
+"записываете время, отметив, что один из вариантов может быть выбран ранее. "
+"Вы всегда можете удалить выбор для общего учётного времени, которое не "
+"должно быть сгруппировано вместе."
 
 #: ../advanced/time-accounting.rst:47
 msgid "Accounted Time in Ticket"
-msgstr ""
+msgstr "Учёт рабочего времени в заявке"
 
 #: ../advanced/time-accounting.rst:49
 msgid ""
@@ -1909,22 +2123,25 @@ msgid ""
 "at the bottom. You can find the calculated sums of each activity type as "
 "well as the total sum of accounted times for all activity types."
 msgstr ""
+"Если в заявке уже есть учётное время, Вы можете увидеть его на панели заявки "
+"внизу. Вы можете найти рассчитанные суммы для каждого типа деятельности, а "
+"также общую сумму учётного времени для всех типов деятельности."
 
 #: ../advanced/time-accounting.rst:57
 msgid "Screenshot showing accounted times in ticket pane"
-msgstr "Снимок экрана, демонстрирующий учтенное время в панели заявок"
+msgstr "Снимок экрана, демонстрирующий учтенное время в панели заявки"
 
 #: ../advanced/time-accounting.rst:57
 msgid "Accounted times in the ticket view"
-msgstr ""
+msgstr "Записи учёта рабочего времени при просмотре заявки"
 
 #: ../basics/find-ticket.rst:8
 msgid "by Browsing"
-msgstr ""
+msgstr "при помощи просмотра"
 
 #: ../basics/find-ticket.rst:8
 msgid "by Searching"
-msgstr ""
+msgstr "при помощи поиска"
 
 #: ../basics/find-ticket.rst:2
 msgid "Finding Tickets"
@@ -1945,80 +2162,94 @@ msgstr ""
 
 #: ../basics/find-ticket/browse.rst:2
 msgid "Browse for Tickets"
-msgstr ""
+msgstr "Просмотр заявок"
 
 #: ../basics/find-ticket/browse.rst:4
 msgid "Looking for a ticket to work on? Check the **overviews** menu."
 msgstr ""
+"Ищете заявку чтобы взять её в работу? Загляните в меню **представления**."
 
 #: ../basics/find-ticket/browse.rst:10
 msgid "Sample view of Overviews"
-msgstr ""
+msgstr "Пример отображения \"Представления\""
 
 #: ../basics/find-ticket/browse.rst:10
 msgid "Click **Overviews** in the main menu to browse tickets."
-msgstr ""
+msgstr "Нажмите **Представления** в главном меню, чтобы просмотреть заявки."
 
 #: ../basics/find-ticket/browse.rst:12
 msgid ""
 "Think of overviews as **inboxes**, each with a different filter for the "
 "tickets it displays."
 msgstr ""
+"Воспринимайте представления как **наборы**, каждый из которых имеет свой "
+"фильтр для отображения заявок."
 
 #: ../basics/find-ticket/browse.rst:15
 msgid ""
 "There are **six built-in overviews** (Zammad admin may :admin-docs:`create "
 "more </manage/overviews.html>` with custom-defined filters):"
 msgstr ""
+"Имеется **шесть встроенных представлений** (администратор Zammad может "
+":admin-docs:`создать больше </manage/overviews.html>` с настраиваемыми "
+"фильтрами):"
 
 #: ../basics/find-ticket/browse.rst:19
 msgid "**My assigned tickets** (*open/pending* only)"
-msgstr ""
+msgstr "**Мои назначенные заявки** (только *открытые/отложенные*)"
 
 #: ../basics/find-ticket/browse.rst:20
 msgid "**Unassigned & Open**"
-msgstr ""
+msgstr "**Не назначено и открыто**"
 
 #: ../basics/find-ticket/browse.rst:21
 msgid ""
 "**My pending reached tickets** (previously marked *pending* and currently "
 "due)"
 msgstr ""
+"**Мои ожидающие решения заявки** (ранее помеченные как *ожидающие* и "
+"подлежащие рассмотрению в данный момент)"
 
 #: ../basics/find-ticket/browse.rst:22
 msgid "**Open** (system-wide)"
-msgstr ""
+msgstr "**Открытые** (в масштабах всей системы)"
 
 #: ../basics/find-ticket/browse.rst:23
 msgid ""
 "**Pending reached** (system-wide, previously marked *pending* and currently "
 "due)"
 msgstr ""
+"**Ожидающие решения** (общесистемные, ранее помеченные как *ожидающие* и "
+"подлежащие рассмотрению в данный момент)"
 
 #: ../basics/find-ticket/browse.rst:24
 msgid ""
 "**Escalated** (system-wide, failing to meet a :admin-docs:`service-level "
 "agreement </manage/slas/index.html>`)"
 msgstr ""
+"**Эскалация** (в масштабах всей системы, при невыполнении :admin-docs:`SLA </"
+"manage/slas/index.html>`)"
 
 #: ../basics/find-ticket/browse.rst:29 ../basics/find-ticket/search.rst:35
 msgid "Click on column headings to change the display order."
-msgstr ""
+msgstr "Нажмите на заголовок столбца, чтобы изменить порядок отображения."
 
 #: ../basics/find-ticket/browse.rst:30
 msgid "Click-and-drag column dividers to adjust their width."
-msgstr ""
+msgstr "Перемещайте разделители столбцов, чтобы отрегулировать их ширину."
 
 #: ../basics/find-ticket/browse.rst:35
 msgid ""
 ":doc:`Ticket priorities </basics/service-ticket/settings/priority>` are "
 "**color-coded:**"
 msgstr ""
+":doc:`Приоритеты заявок </basics/service-ticket/settings/priority>` имеют **"
+"цветовую маркировку:**"
 
 #: ../basics/find-ticket/browse.rst:0
 #: ../basics/service-ticket/settings/priority.rst:11
 msgid "Overview showing 3 tickets with different priorities"
-msgstr ""
+msgstr "Представление, показывающее 3 заявки с разными приоритетами"
 
 #: ../basics/find-ticket/browse.rst:42
 #: ../basics/service-ticket/settings/priority.rst:11
@@ -2026,73 +2257,88 @@ msgid ""
 "Zammad's 3 default priorities allow you to see the importance of your "
 "tickets better."
 msgstr ""
+"3 приоритета Zammad по умолчанию позволяют Вам лучше видеть важность Ваших "
+"заявок."
 
 #: ../basics/find-ticket/search.rst:2
 msgid "Search for Tickets"
-msgstr ""
+msgstr "Поиск заявок"
 
 #: ../basics/find-ticket/search.rst:4
 msgid "Looking for an a specific ticket? Use the **search bar**:"
-msgstr ""
+msgstr "Ищете конкретную заявку? Воспользуйтесь **поисковой строкой**:"
 
 #: ../basics/find-ticket/search.rst:10
 msgid "Results appear immediately under the search bar as you type."
 msgstr ""
+"Результаты появляются сразу под строкой поиска, когда Вы набираете текст."
 
 #: ../basics/find-ticket/search.rst:12
 msgid ""
 "It's not just for tickets! Results cover 💬 **chat logs**, 👨 **customers**, "
 "and 🏢 **organizations**, too."
 msgstr ""
+"Это не только для заявок! Результаты охватывают 💬 **журналы чата**, 👨 "
+"**клиентов**, а также 🏢 **организации**."
 
 #: ../basics/find-ticket/search.rst:15
 msgid "**🔍 Here are just a few of the places the search engine will look:**"
 msgstr ""
+"**🔍 Вот лишь некоторые из мест, на которые обратит внимание поисковая "
+"система:**"
 
 #: ../basics/find-ticket/search.rst:17
 msgid "📝 message subject/content"
-msgstr ""
+msgstr "📝 тема/содержание сообщения"
 
 #: ../basics/find-ticket/search.rst:18
 msgid "👩 recipient names & email addresses"
-msgstr ""
+msgstr "👩 имена получателей и адреса электронной почты"
 
 #: ../basics/find-ticket/search.rst:19
 msgid "📎 text in file attachments (really!)"
-msgstr ""
+msgstr "📎 текст во вложениях (правда!)"
 
 #: ../basics/find-ticket/search.rst:20
 msgid "🏷️ user/organization metadata (e.g. notes stored on customer profiles)"
 msgstr ""
+"🏷️ метаданные пользователя/организации (например, заметки, хранящиеся в "
+"профилях клиентов)"
 
 #: ../basics/find-ticket/search.rst:22
 msgid ""
 "You can find a detailed search document in our `Advanced Search <../../"
 "advanced/search.html>`_ page."
 msgstr ""
+"Вы можете найти подробный документ по поиску на нашей странице `Расширенный "
+"поиск <.../.../advanced/search.html>`_."
 
 #: ../basics/find-ticket/search.rst:29
 msgid ""
 "For detailed results, click the **Show Search Details →** link just above "
 "the autocomplete list."
 msgstr ""
+"Чтобы получить подробные результаты, нажмите на ссылку **Показать детали "
+"поиска →**, расположенную под строкой поиска."
 
 #: ../basics/service-ticket.rst:2
 msgid "Servicing Tickets"
-msgstr ""
+msgstr "Работа с заявками"
 
 #: ../basics/service-ticket.rst:4
 msgid "This is where you'll spend the vast majority of your time in Zammad."
-msgstr ""
+msgstr "Именно здесь Вы проведете большую часть своего времени в Zammad."
 
 #: ../basics/service-ticket.rst:6
 msgid ""
 "Once you get the hang of the tasks below, there's really not much more to it."
 msgstr ""
+"Как только Вы разберетесь с приведенными ниже задачами, больше ничего "
+"особенного не останется."
 
 #: ../basics/service-ticket/create.rst:2
 msgid "Creating a Ticket"
-msgstr ""
+msgstr "Создание заявки"
 
 #: ../basics/service-ticket/create.rst:4
 msgid ""
@@ -2100,70 +2346,79 @@ msgid ""
 "issues come your way. But sometimes, there's just no way for Zammad to know "
 "when an issue arrives – like when a customer calls on the phone."
 msgstr ""
+"Zammad делает все возможное, чтобы автоматически создавать заявки, когда к "
+"Вам обращаются клиенты. Но иногда Zammad просто не может узнать о появлении "
+"проблемы - например, когда клиент звонит по телефону."
 
 #: ../basics/service-ticket/create.rst:10
 msgid "In these cases, Zammad needs your help to **create a new ticket**."
 msgstr ""
+"В таких случаях, чтобы **создать новую заявку**, Zammad нуждается в Вашей "
+"помощи."
 
 #: ../basics/service-ticket/create.rst:16
 msgid "New ticket dialog"
-msgstr ""
+msgstr "Окно \"Новая заявка\""
 
 #: ../basics/service-ticket/create.rst:16
 msgid ""
 "Click the **➕ button** to create a new ticket. The default ticket type is "
 "**Received Call**."
 msgstr ""
+"Нажмите **кнопку ➕**, чтобы создать новую заявку. Тип заявки по умолчанию - "
+"**Входящий вызов**."
 
 #: ../basics/service-ticket/create.rst:19
 msgid "An agent can create three types of tickets:"
-msgstr ""
+msgstr "Агент может создавать три типа заявок:"
 
 #: ../basics/service-ticket/create.rst:0
 msgid "Received Call"
-msgstr ""
+msgstr "Входящий вызов"
 
 #: ../basics/service-ticket/create.rst:21
 msgid "for issues **initiated by a customer** over the phone."
-msgstr ""
+msgstr "по обращениям **инициированным клиентом** по телефону."
 
 #: ../basics/service-ticket/create.rst:0
 msgid "Outbound Call"
-msgstr ""
+msgstr "Исходящий вызов"
 
 #: ../basics/service-ticket/create.rst:22
 msgid "for issues **initiated by an agent** over the phone."
-msgstr ""
+msgstr "для обращениям **инициированных агентом** по телефону."
 
 #: ../basics/service-ticket/create.rst:0
 msgid "Send Email"
-msgstr ""
+msgstr "Email"
 
 #: ../basics/service-ticket/create.rst:23
 msgid "for issues **initiated by an agent** over email."
-msgstr ""
+msgstr "для обращениям, **инициированных агентом** по электронной почте."
 
 #: ../basics/service-ticket/create.rst:26
 msgid "Filling Out the Form"
-msgstr ""
+msgstr "Заполнение формы"
 
 #: ../basics/service-ticket/create.rst:28
 msgid "Here's a quick run-down of each input field in the New Ticket form:"
-msgstr ""
+msgstr "Вот краткое описание каждого поля ввода на форме \"Новая заявка\":"
 
 #: ../basics/service-ticket/create.rst:32 ../basics/zammad-glossary.rst:735
 msgid "Title"
-msgstr ""
+msgstr "Заголовок"
 
 #: ../basics/service-ticket/create.rst:31
 msgid ""
 "The title of the ticket will be used as the **subject line** for all email "
 "correspondences."
 msgstr ""
+"Заголовок заявки будет использоваться в качестве **темы** для всех сообщений "
+"электронной почты."
 
 #: ../basics/service-ticket/create.rst:55 ../basics/zammad-glossary.rst:183
 msgid "Customer"
-msgstr ""
+msgstr "Клиент"
 
 #: ../basics/service-ticket/create.rst:35
 msgid ""
@@ -2171,32 +2426,35 @@ msgid ""
 "addresses only**. You **must** select an option from the autocomplete menu, "
 "or else create a new customer."
 msgstr ""
+"При вводе клиента в меню автозаполнения выполняется поиск **только адресов "
+"электронной почты**. Вы **должны** выбрать вариант из меню автозаполнения, "
+"иначе создадите нового клиента."
 
 #: ../basics/service-ticket/create.rst:40
 msgid "You may **not** assign a ticket to more than one customer."
-msgstr ""
+msgstr "Вы **не можете* назначить заявку более чем одному клиенту."
 
 #: ../basics/service-ticket/create.rst:0
 msgid "Customer autocomplete menu"
-msgstr ""
+msgstr "Меню автозаполнения для клиентов"
 
 #: ../basics/service-ticket/create.rst:46
 msgid "Autocomplete can't find customers by name."
-msgstr ""
+msgstr "Автозаполнение не может найти клиентов по имени."
 
 #: ../basics/service-ticket/create.rst:50
 msgid ""
 "Once a customer has been selected, her profile will be accessible from the "
 "**ticket pane**."
-msgstr ""
+msgstr "После выбора клиента его профиль будет доступен на **панели заявки**."
 
 #: ../basics/service-ticket/create.rst:0
 msgid "Ticket pane (Customer view)"
-msgstr ""
+msgstr "Панель заявки (представление клиента)"
 
 #: ../basics/service-ticket/create.rst:64
 msgid "Text"
-msgstr ""
+msgstr "Текст"
 
 #: ../basics/service-ticket/create.rst:58
 msgid ""
@@ -2204,80 +2462,93 @@ msgid ""
 "will not be sent to the customer (though he may be able to see them if he "
 "has a Zammad account)."
 msgstr ""
+"📞 При телефонных звонках - записывайте детали разговора. Эти записи не "
+"будут отправлены клиенту (хотя он сможет их увидеть, если у него есть "
+"учётная запись в Zammad)."
 
 #: ../basics/service-ticket/create.rst:62
 msgid "📧 For emails, this is the body of your outgoing message."
-msgstr ""
+msgstr "📧 Для электронной почты - это тело вашего исходящего сообщения."
 
 #: ../snippets/ui-protip-message-editor-features.rst:3
 msgid ""
 "The message editor supports 📋 copying-and-pasting (or dragging-and-"
 "dropping) of **🔤 rich text**, **🌄 images** and **📎 file attachments**."
 msgstr ""
+"Редактор сообщений поддерживает 📋 копирование и вставку (или перетаскивание)"
+" **🔤 rich text**, **🌄 изображений** и **📎 файловых вложений**."
 
 #: ../snippets/ui-protip-message-editor-features.rst:6
 msgid ""
 "Use the built-in :doc:`keyboard shortcuts </advanced/keyboard-shortcuts>` to "
 "apply rich text formatting."
 msgstr ""
+"Используйте встроенные :doc:`горячие клавиши </advanced/keyboard-shortcuts>` "
+"для применения rich text форматирования."
 
 #: ../snippets/ui-protip-message-editor-features.rst:8
 msgid ""
 "Use the 🗊 icon next to the ticket title to copy the ticket number to your "
 "clipboard (including ticket hook; e.g. ``Ticket#50071``)."
 msgstr ""
+"Используйте значок 🗊 рядом с названием заявки, чтобы скопировать номер "
+"заявки в буфер обмена (включая идентификатор заявки; например, "
+"``Заявка#50071``)."
 
 #: ../basics/service-ticket/create.rst:66
 #: ../basics/service-ticket/settings.rst:2 ../basics/what-is-a-ticket.rst:32
 msgid "Ticket Settings"
-msgstr ""
+msgstr "Настройки заявки"
 
 #: ../snippets/ticket-settings-link-list.rst:1
 msgid "**📖 See Also**"
-msgstr ""
+msgstr "**📖 Смотрите также**"
 
 #: ../snippets/ticket-settings-link-list.rst:3
 msgid ""
 "For an in-depth discussion of each ticket setting, see the articles below:"
-msgstr ""
+msgstr "Подробно о настройках каждой заявки читайте в статьях ниже:"
 
 #: ../snippets/ticket-settings-link-list.rst:5
 msgid ":doc:`Owner </basics/service-ticket/settings/owner>`"
-msgstr ""
+msgstr ":doc:`Владелец </basics/service-ticket/settings/owner>`"
 
 #: ../snippets/ticket-settings-link-list.rst:6
 msgid ":doc:`State </basics/service-ticket/settings/state>`"
-msgstr ""
+msgstr ":doc:`Состояние </basics/service-ticket/settings/state>`"
 
 #: ../snippets/ticket-settings-link-list.rst:7
 msgid ":doc:`Group </basics/service-ticket/settings/group>`"
-msgstr ""
+msgstr ":doc:`Группа </basics/service-ticket/settings/group>`"
 
 #: ../snippets/ticket-settings-link-list.rst:8
 msgid ":doc:`Priority </basics/service-ticket/settings/priority>`"
-msgstr ""
+msgstr ":doc:`Приоритет </basics/service-ticket/settings/priority>`"
 
 #: ../snippets/ticket-settings-link-list.rst:9
 msgid ":doc:`Tags </basics/service-ticket/settings/tags>`"
-msgstr ""
+msgstr ":doc:`Теги </basics/service-ticket/settings/tags>`"
 
 #: ../basics/service-ticket/follow-up.rst:2
 msgid "Following Up"
-msgstr ""
+msgstr "Последующие действия"
 
 #: ../basics/service-ticket/follow-up.rst:4
 msgid ""
 "Generally, “working on existing tickets” means keeping up with a customer "
 "correspondence in the **thread view**. You can do this by:"
 msgstr ""
+"Как правило, \"работа над существующими заявками\" означает ведение "
+"переписки с клиентом в режиме **потока**. Вы можете делать это следующим "
+"образом:"
 
 #: ../basics/service-ticket/follow-up.rst:8
 msgid "📧 responding to an **individual message**, or"
-msgstr ""
+msgstr "📧 отвечая на **индивидуальное сообщение**, или"
 
 #: ../basics/service-ticket/follow-up.rst:9
 msgid "📝 adding a message/note to the **whole ticket**."
-msgstr ""
+msgstr "📝 добавляя сообщения/примечания ко **всей заявке**."
 
 #: ../basics/service-ticket/follow-up.rst:11
 msgid ""
@@ -2285,45 +2556,57 @@ msgid ""
 "settings <settings>` (which is the other half of “working on existing "
 "tickets”)."
 msgstr ""
+"Продолжайте читать, чтобы узнать больше, или пропустите этот раздел, чтобы "
+"узнать об :doc:`управлении настройками заявок <settings>` (это вторая часть "
+"\"работы над существующими заявками\")."
 
 #: ../basics/service-ticket/follow-up.rst:19
 msgid "Ticket summary view"
-msgstr ""
+msgstr "Просмотр сводки по заявке"
 
 #: ../basics/service-ticket/follow-up.rst:19
 msgid ""
 "Tickets are threads of messages & notes about a customer service issue. :doc:"
 "`⚙️ Manage ticket settings <settings>` in the **ticket pane** on the right."
 msgstr ""
+"Заявки - это потоки сообщений и заметок по обращениям клиентов. :doc:`⚙️ "
+"Управление настройками заявки <settings>` справа в **панели заявки**."
 
 #: ../basics/service-ticket/follow-up.rst:23
 msgid ""
 "Any time you open a ticket, a new entry will appear in your :doc:`tab list</"
 "advanced/tabs>` in the main menu."
 msgstr ""
+"Каждый раз, когда Вы открываете заявку, новая запись появляется в вашем "
+":doc:`списке вкладок</advanced/tabs>` в главном меню."
 
 #: ../basics/service-ticket/follow-up.rst:26
 msgid ""
 "Zammad **automatically backs up your unsaved changes** in all open tabs."
 msgstr ""
+"Zammad **автоматически запоминает несохраненные изменения** во всех открытых "
+"вкладках."
 
 #: ../basics/service-ticket/follow-up.rst:29
 msgid "Responding to Individual Messages"
-msgstr ""
+msgstr "Ответы на отдельные сообщения"
 
 #: ../basics/service-ticket/follow-up.rst:31
 msgid "Use the **⮪ reply** button under a message to reply to it directly."
 msgstr ""
+"Используйте кнопку **⮪ Ответить** под сообщением, чтобы ответить на него."
 
 #: ../basics/service-ticket/follow-up.rst:37
 msgid "Reply button"
-msgstr ""
+msgstr "Кнопка ответа"
 
 #: ../basics/service-ticket/follow-up.rst:37
 msgid ""
 "An additional **⮪ reply all** option will appear for email messages with "
 "multiple recipients."
 msgstr ""
+"Для сообщений электронной почты с несколькими получателями появится "
+"дополнительная опция **⮪ ответить всем**."
 
 #: ../basics/service-ticket/follow-up.rst:40
 msgid ""
@@ -2332,6 +2615,10 @@ msgid ""
 "message** (*i.e.,* if the message you replied to was originally a tweet, the "
 "customer will receive your response in a Twitter DM)."
 msgstr ""
+"Как и в случае с новыми сообщениями, Ваш ответ появится внизу области "
+"сообщений. Ответы отправляются **по тому же каналу, что и исходное "
+"сообщение** (*иначе говоря*, если сообщение, на которое Вы ответили, "
+"изначально было твитом, клиент получит ваш ответ в Twitter DM)."
 
 #: ../basics/service-ticket/follow-up.rst:47
 msgid ""
@@ -2340,54 +2627,65 @@ msgid ""
 "correspondences with people who don't have Zammad (like a third-party "
 "supplier)."
 msgstr ""
+"Вы также можете **пересылать сообщения**, как и в любом другом почтовом "
+"клиенте (вложения включаются автоматически). Таким образом, Вы можете "
+"делиться корреспонденцией с людьми, у которых нет Zammad (например, со "
+"сторонними поставщиками)."
 
 #: ../basics/service-ticket/follow-up.rst:51
 msgid ""
 "Do you want to see **detailed information of a message**? Just click on it:"
 msgstr ""
+"Вы хотите увидеть **подробную информацию о сообщении**? Просто нажмите на "
+"него:"
 
 #: ../basics/service-ticket/follow-up.rst:None
 msgid "Message details view"
-msgstr ""
+msgstr "Просмотр сведений о сообщении"
 
 #: ../basics/service-ticket/follow-up.rst:58
 msgid "Adding New Messages/Notes"
-msgstr ""
+msgstr "Добавление новых сообщений/заметок"
 
 #: ../basics/service-ticket/follow-up.rst:60
 msgid "Click on the text field at the end of the thread to add a follow-up:"
-msgstr ""
+msgstr "Нажмите на текстовое поле внизу области сообщений, чтобы начать:"
 
 #: ../basics/service-ticket/follow-up.rst:65
 msgid ""
 "The default follow-up type is “note”. Click the 📝 to select another type."
 msgstr ""
+"По умолчанию тип сообщения - \"заметка\". Нажмите кнопку 📝, чтобы выбрать "
+"другой тип."
 
 #: ../basics/service-ticket/follow-up.rst:67
 msgid "There are three types of follow-ups:"
-msgstr ""
+msgstr "Существует три типа сообщений:"
 
 #: ../basics/service-ticket/follow-up.rst:0
 msgid "📝 Note"
-msgstr ""
+msgstr "📝 Заметка"
 
 #: ../basics/service-ticket/follow-up.rst:71
 msgid ""
 "Jot down a reminder for yourself and other agents when new information comes "
 "in (hidden from the customer by default)."
 msgstr ""
+"Запишите напоминание для себя и других агентов о поступлении новой "
+"информации (по умолчанию скрытой от клиента)."
 
 #: ../basics/service-ticket/follow-up.rst:0
 msgid "📞 Call"
-msgstr ""
+msgstr "📞 Звонок"
 
 #: ../basics/service-ticket/follow-up.rst:77
 msgid "Record a summary of a phone call you had with the customer."
 msgstr ""
+"Запишите краткий отчет о телефонном разговоре, который Вы вели с клиентом."
 
 #: ../basics/service-ticket/follow-up.rst:0
 msgid "📧 Email"
-msgstr ""
+msgstr "📧 Электронная почта"
 
 #: ../basics/service-ticket/follow-up.rst:81
 msgid ""
@@ -2395,17 +2693,22 @@ msgid ""
 "used for the subject line (:ref:`click on the title to rename it <rename-"
 "ticket>`)."
 msgstr ""
+"Отправить электронное письмо *любому адресату* по заявке. Заголовок заявки "
+"будет использован в строке темы (:ref:`кликните на заголовок, чтобы "
+"переименовать его <rename-ticket>`)."
 
 #: ../basics/service-ticket/follow-up.rst:85
 msgid ""
 "You can **change the visibility of an article** by clicking the 🔒 button:"
-msgstr ""
+msgstr "Вы можете **изменить видимость статьи**, нажав на кнопку 🔒:"
 
 #: ../basics/service-ticket/follow-up.rst:90
 msgid ""
 "“Internal” messages are outlined with a salmon border, and **can only be "
 "viewed by other agents**."
 msgstr ""
+"\"Внутренние\" сообщения выделены лососевой рамкой и **могут быть "
+"просмотрены только другими агентами**."
 
 #: ../basics/service-ticket/follow-up.rst:93
 msgid ""
@@ -2415,10 +2718,14 @@ msgid ""
 "\"communication\" (emails, calls), their visibility has to be switched to "
 "internal first."
 msgstr ""
+"А как насчет **удаления статей**? В Zammad Вы можете удалять только те "
+"статьи, которые создали сами и которые не старше 10 минут. Чтобы увидеть "
+"кнопку \"удалить\" в статьях типа \"коммуникация\" (электронная почта, "
+"звонки), их видимость должна быть сначала переключена на внутреннюю."
 
 #: ../basics/service-ticket/follow-up.rst:101
 msgid "Using Quotation"
-msgstr ""
+msgstr "Использование цитат"
 
 #: ../basics/service-ticket/follow-up.rst:103
 msgid ""
@@ -2426,6 +2733,9 @@ msgid ""
 "important because especially on long conversations your opponent will easily "
 "loose track."
 msgstr ""
+"Во многих случаях Вы захотите процитировать предыдущий текст Вашего клиента. "
+"Это важно, потому что в длинных беседах ваш собеседник может легко потерять "
+"нить разговора."
 
 #: ../basics/service-ticket/follow-up.rst:107
 msgid ""
@@ -2433,6 +2743,9 @@ msgid ""
 "of things. By default Zammad adds no whole quote body (this can be changed "
 "by your administrator)."
 msgstr ""
+"Ссылки на ранее написанный текст очень помогают сохранять контекст и следить "
+"за событиями. По умолчанию Zammad не добавляет целое тело цитаты (это может "
+"быть изменено Вашим администратором)."
 
 #: ../basics/service-ticket/follow-up.rst:111
 msgid ""
@@ -2441,24 +2754,35 @@ msgid ""
 "cause Zammad to add the marked text as quote to the editor. You can break up "
 "quotations by using enter."
 msgstr ""
+"Независимо от того, активна ли вся цитата или нет, Вы всегда можете отметить "
+"текст, на который хотите сослаться, и нажать *ответить* или *ответить всем* "
+"после этого. Это заставит Zammad добавить отмеченный текст как цитату в "
+"редактор сообщения. Вы можете разрывать цитаты с помощью клавиши Enter."
 
 #: ../basics/service-ticket/follow-up.rst:118
 msgid ""
 "This function is limited to one article per operation. The article has to be "
 "of type *communication* (thus have a *reply* button) to function."
 msgstr ""
+"Эта функция ограничена одной статьей за операцию. Статья должна быть типа "
+"*коммуникация* (следовательно, иметь кнопку *ответить*), чтобы функция "
+"работала."
 
 #: ../basics/service-ticket/follow-up.rst:126
 msgid "Screencast showing text being marked and quoted after pressing reply"
 msgstr ""
+"Запись экрана, показывающая, как текст выделяется и цитируется после нажатия "
+"кнопки ответа"
 
 #: ../basics/service-ticket/follow-up.rst:126
 msgid "Mark, press reply and work with quoted text!"
 msgstr ""
+"Выделите текст сообщения, нажмите \"Ответить\" и работайте с цитируемым "
+"текстом!"
 
 #: ../basics/service-ticket/follow-up.rst:129
 msgid "🔥 Keeping an Eye on Escalations"
-msgstr ""
+msgstr "🔥 Следим за эскалацией"
 
 #: ../basics/service-ticket/follow-up.rst:131
 msgid ""
@@ -2467,6 +2791,10 @@ msgid ""
 "documentation </manage/slas/index.html>`. If you can't see escalation "
 "timestamps, it is not configured by your admin."
 msgstr ""
+"SLA являются необязательными и требуют настройки администратором. "
+"Администраторы могут узнать больше о SLA :admin-docs:`в нашей документации "
+"администратора </manage/slas/index.html>`. Если Вы не видите временные метки "
+"эскалации, значит, она не настроена Вашим администратором."
 
 #: ../basics/service-ticket/follow-up.rst:136
 msgid ""
@@ -2474,16 +2802,22 @@ msgid ""
 "two dates next to the ticket number. By hovering the escalation date, Zammad "
 "will display all upcoming escalation times based on the SLA configuration."
 msgstr ""
+"В верхней части каждой заявки, применимой к эскалации SLA, Вы найдете две "
+"даты рядом с номером заявки. Наведя курсор на дату эскалации, Zammad "
+"отобразит все предстоящие эскалации, основанные на конфигурации SLA."
 
 #: ../basics/service-ticket/follow-up.rst:None
 msgid ""
 "Screenshot showing hovering over escalation note and getting\n"
 "more detailed escalation information"
 msgstr ""
+"Снимок экрана, на котором показано наведение курсора на заметку об эскалации "
+"и получение\n"
+"более подробной информации об эскалации"
 
 #: ../basics/service-ticket/follow-up.rst:145
 msgid "Simultaneous Processing of a Ticket"
-msgstr ""
+msgstr "Одновременная обработка заявки"
 
 #: ../basics/service-ticket/follow-up.rst:149
 msgid ""
@@ -2492,6 +2826,11 @@ msgid ""
 "conflicting responses on the same issue from both agents; or, changes made "
 "by one agent may be accidentally undone by the other."
 msgstr ""
+"Время от времени у двух агентов может быть одновременно открыта одна и та же "
+"заявка. Когда это происходит, ситуация может быстро испортиться: клиенты "
+"могут получить противоречивые ответы по одному и тому же вопросу от обоих "
+"агентов; или изменения, внесенные одним агентом, могут быть случайно "
+"отменены другим."
 
 #: ../basics/service-ticket/follow-up.rst:158
 msgid ""
@@ -2499,127 +2838,148 @@ msgid ""
 "by displaying an avatar in the lower-lefthand corner for every agent that "
 "has that ticket open."
 msgstr ""
+"Чтобы держать все под контролем, Zammad предупредит вас о возможных "
+"конфликтах, отображая аватар в левом нижнем углу для каждого агента, у "
+"которого открыта заявка."
 
 #: ../basics/service-ticket/follow-up.rst:163
 msgid ""
 "Be sure to communicate with your colleagues to prevent these problems before "
 "they arise."
 msgstr ""
+"Обязательно общайтесь со своими коллегами, чтобы предотвратить эти проблемы "
+"до их возникновения."
 
 #: ../basics/service-ticket/follow-up.rst:170
 msgid "Ticket conflict alert"
-msgstr ""
+msgstr "Предупреждение о конфликте по заявке"
 
 #: ../basics/service-ticket/follow-up.rst:170
 msgid ""
 "A ✏️ icon will appear if the agent has made any unsaved changes to the ticket."
-msgstr ""
+msgstr "Если агент внес в заявку несохраненные изменения, появится значок ✏️."
 
 #: ../basics/service-ticket/settings.rst:4
 msgid "Use the **ticket pane** to manage a ticket's settings:"
-msgstr ""
+msgstr "Для управления настройками заявки используйте **панель заявки**:"
 
 #: ../basics/service-ticket/settings.rst:20
 msgid "Default ticket pane view"
-msgstr ""
+msgstr "Вид панели заявки по умолчанию"
 
 #: ../basics/service-ticket/settings.rst:20
 msgid ""
 "Click the **→** button in the corner to hide the ticket pane. Click the 💬 "
 "tab to bring it back."
 msgstr ""
+"Нажмите кнопку **→** в правом верхнем углу панели заявки, чтобы скрыть её. "
+"Чтобы вернуть её обратно - нажмите вкладку 💬."
 
 #: ../basics/service-ticket/settings.rst:23
 msgid ""
 "The available options depend on your privileges and the configuration of "
 "your system."
-msgstr ""
+msgstr "Доступные опции зависят от Ваших привилегий и конфигурации системы."
 
 #: ../basics/service-ticket/settings.rst:29
 msgid "Renaming a Ticket"
-msgstr ""
+msgstr "Переименование заявки"
 
 #: ../basics/service-ticket/settings.rst:31
 msgid "To rename a ticket, simply click on the title and start typing."
 msgstr ""
+"Чтобы переименовать заявку, просто нажмите на её заголовок и начните вводить "
+"текст."
 
 #: ../basics/service-ticket/settings.rst:37
 msgid "Highlighting Ticket Text"
-msgstr ""
+msgstr "Выделение текста заявки"
 
 #: ../basics/service-ticket/settings.rst:39
 msgid ""
 "Use the highlighter tool in the upper-righthand corner to mark up important "
 "text. (Your highlights are visible to other agents.)"
 msgstr ""
+"Используйте инструмент выделения в правом верхнем углу, чтобы отметить "
+"важный текст (Ваши выделения видны другим агентам)."
 
 #: ../basics/service-ticket/settings.rst:46
 msgid "Ticket highlighter"
-msgstr ""
+msgstr "Инструмент для выделения заявок"
 
 #: ../basics/service-ticket/settings.rst:46
 msgid ""
 "Highlight by selecting text, then clicking the highlighter. Click again to "
 "undo."
 msgstr ""
+"Выделите текст, а затем нажмите на кнопку выделения. Нажмите еще раз, чтобы "
+"отменить выделение."
 
 #: ../basics/service-ticket/settings.rst:50
 msgid "Further Ticket Actions"
-msgstr ""
+msgstr "Дальнейшие действия по заявке"
 
 #: ../basics/service-ticket/settings.rst:54
 msgid "Additional actions are available via the **submenu**:"
-msgstr ""
+msgstr "Дополнительные действия доступны через **подменю**:"
 
 #: ../basics/service-ticket/settings.rst:61
 msgid "Ticket submenu"
-msgstr ""
+msgstr "Подменю заявки"
 
 #: ../basics/service-ticket/settings.rst:61
 msgid "Click the **Ticket ▾** heading to access additional actions."
 msgstr ""
+"Нажмите на заголовок **Заявка ▾**, чтобы получить доступ к дополнительным "
+"действиям."
 
 #: ../basics/service-ticket/settings.rst:66
 msgid "History"
-msgstr ""
+msgstr "История"
 
 #: ../basics/service-ticket/settings.rst:64
 msgid ""
 "See a comprehensive list of updates to the ticket, performed by any user, "
 "since its creation."
 msgstr ""
+"Просмотр полного списка обновлений заявки, выполненных любым пользователем с "
+"момента её создания."
 
 #: ../basics/service-ticket/settings.rst:70
 msgid "Merge"
-msgstr ""
+msgstr "Объединить"
 
 #: ../basics/service-ticket/settings.rst:69
 msgid ""
 "Migrate all messages/notes to another ticket (see :doc:`Merging Tickets </"
 "advanced/ticket-actions/merge>` for details)."
 msgstr ""
+"Перенести все сообщения/заметки в другую заявку (подробнее см. в :doc:`"
+"Объединение заявок </advanced/ticket-actions/merge>`)."
 
 #: ../basics/service-ticket/settings.rst:72
 msgid "Change Customer"
-msgstr ""
+msgstr "Изменить клиента"
 
 #: ../basics/service-ticket/settings.rst:73
 msgid "Reassign the ticket to another customer."
-msgstr ""
+msgstr "Переназначить заявку другому клиенту."
 
 #: ../basics/service-ticket/settings/group.rst:2
 msgid "Group"
-msgstr ""
+msgstr "Группа"
 
 #: ../basics/service-ticket/settings/group.rst:4
 msgid ""
 "**Groups** are a form of access control that allows you to dictate *which "
 "agents are allowed to do what* to a given ticket."
 msgstr ""
+"**Группы** - это форма управления доступом, которая позволяет Вам указать, *"
+"каким агентам и что разрешено делать* с той или иной заявкой."
 
 #: ../basics/service-ticket/settings/group.rst:9
 msgid "What?"
-msgstr ""
+msgstr "Что?"
 
 #: ../basics/service-ticket/settings/group.rst:11
 msgid ""
@@ -2627,6 +2987,9 @@ msgid ""
 "You've got ten different agents spread across two teams, handling dozens of "
 "tickets a day."
 msgstr ""
+"Предположим, Ваша организация использует Zammad как для продаж, так и для "
+"поддержки клиентов. У Вас десять разных агентов, распределенных по двум "
+"командам, которые обрабатывают десятки заявок в день."
 
 #: ../basics/service-ticket/settings/group.rst:15
 msgid ""
@@ -2638,40 +3001,56 @@ msgid ""
 "department, and finds out how much their colleagues in sales are making! 💸💸"
 "💸)"
 msgstr ""
+"Без групп все десять агентов могут видеть (и отвечать) на каждую поступающую "
+"заявку, независимо от того, к какому отделу она относится. Это не является "
+"проблемой *как таковой*, но приводит к ненужному беспорядку в :doc:`меню "
+"представлений </basics/find-ticket>`. (Гораздо хуже, когда, например, "
+"представитель службы поддержки клиентов видит заявки, предназначенные для "
+"отдела кадров, и узнает, сколько зарабатывают его коллеги из отдела продаж! "
+"💸💸💸)"
 
 #: ../basics/service-ticket/settings/group.rst:25
 msgid ""
 "If, instead, each agent were assigned to an appropriate group, then they'd "
 "only ever see the tickets that belong to their own group."
 msgstr ""
+"Если бы вместо этого каждый агент был назначен в соответствующую группу, то "
+"он видел бы только те заявки, которые относятся к его собственной группе."
 
 #: ../basics/service-ticket/settings/group.rst:29
 msgid "Managing Groups"
-msgstr ""
+msgstr "Управление группами"
 
 #: ../basics/service-ticket/settings/group.rst:31
 msgid ""
 "So how do I manage which team I'm on? You don't - that's the :admin-docs:"
 "`administrator's job </manage/groups/index.html>`."
 msgstr ""
+"Так как же мне управлять тем, в какой команде я нахожусь? Никак, это работа "
+":admin-docs:`администратора </manage/groups/index.html>`."
 
 #: ../basics/service-ticket/settings/group.rst:34
 msgid ""
 "However, you can *check* which teams you're on in the Notifications section "
 "of your :doc:`user settings </extras/profile-and-settings>`:"
 msgstr ""
+"Однако Вы можете *проверить*, в каких командах Вы состоите, в разделе "
+"\"Уведомления\" ваших :doc:`настройках пользователя </extras/profile-and-"
+"settings>`:"
 
 #: ../basics/service-ticket/settings/group.rst:43
 msgid "Profile > Notifications menu"
-msgstr ""
+msgstr "Профиль > Меню уведомлений"
 
 #: ../basics/service-ticket/settings/group.rst:43
 msgid "This user belongs to only one group (“Users”)."
 msgstr ""
+"Этот пользователь принадлежит только к одной группе \"Пользователи\"(\"Users"
+"\")."
 
 #: ../basics/service-ticket/settings/group.rst:46
 msgid "So Where Do I Come In?"
-msgstr ""
+msgstr "Так где же я?"
 
 #: ../basics/service-ticket/settings/group.rst:48
 msgid ""
@@ -2679,21 +3058,26 @@ msgid ""
 "your groups to another. In general, though, you won't need to do this unless "
 "you're an admin, or an admin has discussed the procedure with you beforehand."
 msgstr ""
+"Если Вы состоите в нескольких группах, Вы можете переназначить заявку из "
+"одной группы в другую. Как правило, Вам не придется этого делать, если Вы не "
+"являетесь администратором или если администратор не обсудил с Вами эту "
+"процедуру заранее."
 
 #: ../basics/service-ticket/settings/owner.rst:2
 #: ../basics/zammad-glossary.rst:518
 msgid "Owner"
-msgstr ""
+msgstr "Владелец"
 
 #: ../basics/service-ticket/settings/owner.rst:4
 msgid ""
 "A ticket's **owner** is simply *the agent that is currently responsible for "
 "it*."
 msgstr ""
+"**Владелец** заявки - это *агент, который в данный момент отвечает за нее*."
 
 #: ../basics/service-ticket/settings/owner.rst:8
 msgid "Whose Job is it to Assign Tickets?"
-msgstr ""
+msgstr "Чья работа заключается в назначении заявок?"
 
 #: ../basics/service-ticket/settings/owner.rst:10
 msgid ""
@@ -2701,6 +3085,9 @@ msgid ""
 "assign tickets to yourself** when you choose an issue to work on from the "
 "pool of new tickets."
 msgstr ""
+"Это зависит от рабочего процесса в Вашей организации, но в большинстве "
+"случаев **Вы сами назначаете заявки себе**, когда выбираете заявку для "
+"работы из списка новых заявок."
 
 #: ../basics/service-ticket/settings/owner.rst:16
 msgid ""
@@ -2708,10 +3095,13 @@ msgid ""
 "have the required privileges for the ticket's :doc:`group </basics/service-"
 "ticket/settings/group>`."
 msgstr ""
+"В принципе, любой агент может назначить заявку любому другому, если оба "
+"обладают необходимыми привилегиями для :doc:`группы</basics/service-ticket/"
+"settings/group>` этой заявки."
 
 #: ../basics/service-ticket/settings/owner.rst:21
 msgid "Why Would I Want to Re-assign a Ticket to Someone Else?"
-msgstr ""
+msgstr "Почему я могу захотеть переназначить заявку кому-то другому?"
 
 #: ../basics/service-ticket/settings/owner.rst:23
 msgid ""
@@ -2720,21 +3110,27 @@ msgid ""
 "In such cases, a colleague may assign a ticket to you (or vice versa) after "
 "it has been partially resolved."
 msgstr ""
+"Иногда сложные вопросы требуют, чтобы заявка была :ref:`передана туда-сюда "
+"между несколькими агентами <sharing-work>`, прежде чем она будет закрыта. В "
+"таких случаях коллега может передать заявку Вам (или наоборот) после того, "
+"как она будет частично решена."
 
 #: ../basics/service-ticket/settings/priority.rst:2
 #: ../basics/zammad-glossary.rst:554
 msgid "Priority"
-msgstr ""
+msgstr "Приоритет"
 
 #: ../basics/service-ticket/settings/priority.rst:4
 msgid ""
 "A ticket’s **priority** is simply a ranking (from 1 to 3) of *how urgent or "
 "important it is*."
 msgstr ""
+"**Приоритет** заявки - это просто рейтинг (от 1 до 3) того, насколько она "
+"срочна или важна."
 
 #: ../basics/service-ticket/settings/priority.rst:15
 msgid "But what does it do, and how should I use it?"
-msgstr ""
+msgstr "Но что он делает и как его использовать?"
 
 #: ../basics/service-ticket/settings/priority.rst:17
 msgid ""
@@ -2742,53 +3138,62 @@ msgid ""
 "Zammad administrators can set up all sorts of automated hooks that fire off "
 "based on this value, like:"
 msgstr ""
+"Из коробки **приоритет заявки фактически ничего не делает**. Однако "
+"администраторы Zammad могут настроить всевозможные автоматизации, которые "
+"будут срабатывать на основе этого значения, например:"
 
 #: ../basics/service-ticket/settings/priority.rst:21
 msgid ":admin-docs:`service-level agreements </manage/slas/index.html>`,"
-msgstr ""
+msgstr ":admin-docs:`SLA </manage/slas/index.html>`,"
 
 #: ../basics/service-ticket/settings/priority.rst:22
 msgid ":admin-docs:`triggers </manage/trigger.html>`, and"
-msgstr ""
+msgstr ":admin-docs:`триггеры </manage/trigger.html>`, и"
 
 #: ../basics/service-ticket/settings/priority.rst:23
 msgid ":admin-docs:`scheduled events </manage/scheduler.html>`."
-msgstr ""
+msgstr ":admin-docs:`запланированные события </manage/scheduler.html>`."
 
 #: ../basics/service-ticket/settings/priority.rst:25
 msgid ""
 "Priority can also be used as a ticket filter when creating :admin-docs:"
 "`custom overviews </manage/overviews.html>`."
 msgstr ""
+"Приоритет также можно использовать в качестве фильтра заявок при создании "
+":admin-docs:`пользовательских представлений </manage/overviews.html>`."
 
 #: ../basics/service-ticket/settings/priority.rst:28
 msgid ""
 "In other words, **consult your administrator** for details on how he’d like "
 "you to use it."
 msgstr ""
+"Другими словами, **обратитесь к своему администратору** за подробностями о "
+"том, как он хотел бы, чтобы вы его использовали."
 
 #: ../basics/service-ticket/settings/state.rst:2
 #: ../basics/what-is-a-ticket.rst:51 ../basics/zammad-glossary.rst:682
 msgid "State"
-msgstr ""
+msgstr "Состояние"
 
 #: ../basics/service-ticket/settings/state.rst:4
 msgid ""
 "The **state** of a ticket refers to *its progress toward completion,* and "
 "may be one of the following:"
 msgstr ""
+"**Состояние** заявки относится к *прогрессу в её выполнении* и может быть "
+"одним из следующих:"
 
 #: ../basics/service-ticket/settings/state.rst:7
 msgid "new"
-msgstr ""
+msgstr "новая"
 
 #: ../basics/service-ticket/settings/state.rst:8
 msgid "open"
-msgstr ""
+msgstr "открыта"
 
 #: ../basics/service-ticket/settings/state.rst:9
 msgid "closed"
-msgstr ""
+msgstr "закрыта"
 
 #: ../basics/service-ticket/settings/state.rst:10
 msgid ""
@@ -2796,30 +3201,39 @@ msgid ""
 "doc:`linked tickets </advanced/ticket-actions/link>` or the :ref:`ticket "
 "history <ticket-submenu>` to learn more)"
 msgstr ""
+"объединенные (эта заявка была объединена с другой заявкой. Чтобы узнать "
+"больше, проверьте либо :doc:\"связанные заявки </advanced/ticket-actions/"
+"link>\", либо :ref:\"история заявок <ticket-submenu>\")"
 
 #: ../basics/service-ticket/settings/state.rst:14
 msgid ""
 "pending close (*i.e.,* scheduled to automatically close at a later date)"
 msgstr ""
+"в ожидании закрытия (*т.е.* запланировано автоматическое закрытие на более "
+"позднюю дату)"
 
 #: ../basics/service-ticket/settings/state.rst:16
 msgid ""
 "pending reminder (*i.e.,* hidden, but scheduled to reappear at a later date)"
 msgstr ""
+"в ожидании напоминания (*т.е.* скрытое, но запланированное для повторного "
+"появления в более поздний срок)"
 
 #: ../basics/service-ticket/settings/state.rst:20
 msgid "State Colors"
-msgstr ""
+msgstr "Цвета состояний"
 
 #: ../basics/service-ticket/settings/state.rst:22
 msgid ""
 "Zammad states are color-coded. This helps you to understanding the state of "
 "the ticket much faster in general - without having a look into details."
 msgstr ""
+"Состояния заявок в Zammad выделены цветом. Это поможет Вам быстрее понять "
+"состояние заявки в целом - без необходимости вникать в детали."
 
 #: ../basics/service-ticket/settings/state.rst:30
 msgid "What's the Difference Between “New” and “Open”?"
-msgstr ""
+msgstr "В чем разница между \"Новая\" и \"Открытая\"?"
 
 #: ../basics/service-ticket/settings/state.rst:32
 msgid ""
@@ -2829,49 +3243,64 @@ msgid ""
 "it takes for customers to get a response on a new ticket or get their issues "
 "resolved entirely."
 msgstr ""
+"Состояния не просто указывают на прогресс: В Zammad есть функция точного "
+"отслеживания времени (так называемые \":admin-docs:`SLA </manage/slas/index."
+"html>`\"), которая использует информацию о состоянии заявки для определения, "
+"сколько времени потребуется клиенту, чтобы получить ответ на новую заявку "
+"или полностью решить обращение."
 
 #: ../basics/service-ticket/settings/state.rst:38
 msgid ""
 "On a *new* ticket, the customer still hasn't received her first response on "
 "the issue."
-msgstr ""
+msgstr "В *новой* заявке клиент до сих пор не получил первый ответ на вопрос."
 
 #: ../basics/service-ticket/settings/state.rst:41
 msgid ""
 "On an *open* ticket, the customer has received an initial response, but the "
 "issue still hasn't been resolved."
 msgstr ""
+"В *открытой* заявке клиент получил первоначальный ответ, но проблема все еще "
+"не решена."
 
 #: ../basics/service-ticket/settings/state.rst:45
 msgid ""
 "⏱️ Tickets in a *pending* state do not accumulate time toward their SLA "
 "limits."
 msgstr ""
+"⏱️ Заявки, находящиеся в состоянии *находящиеся на рассмотрении*, не "
+"накапливают время в рамках SLA."
 
 #: ../basics/service-ticket/settings/state.rst:47
 msgid ""
 "So, for instance, a ticket may be marked *pending reminder* if it's waiting "
 "on feedback from a third-party supplier who's out of town until next week."
 msgstr ""
+"Так, например, заявка может быть помечена как *в ожидании напоминания*, если "
+"она ждет ответа от стороннего поставщика, которого нет в городе до следующей "
+"недели."
 
 #: ../basics/service-ticket/settings/tags.rst:2
 #: ../basics/zammad-glossary.rst:708
 msgid "Tags"
-msgstr ""
+msgstr "Теги"
 
 #: ../basics/service-ticket/settings/tags.rst:4
 msgid ""
 "**Tags** are custom-defined labels that can be applied to tickets to make it "
 "easier to find them in the future."
 msgstr ""
+"**Теги** - это пользовательские метки, которые можно добавить заявкам, чтобы "
+"в будущем их было проще найти."
 
 #: ../basics/service-ticket/settings/tags.rst:11
 msgid "Ticket pane (tags)"
-msgstr ""
+msgstr "Панель заявки (теги)"
 
 #: ../basics/service-ticket/settings/tags.rst:11
 msgid "Click on a tag name to view other tickets with the same tag."
 msgstr ""
+"Щелкните по названию тега, чтобы просмотреть другие заявки с такой же меткой."
 
 #: ../basics/service-ticket/settings/tags.rst:13
 msgid ""
@@ -2879,10 +3308,14 @@ msgid ""
 "the ``tags:`` search filter. For instance, find all tickets with the "
 "**order** tag by searching for ``tags: order``."
 msgstr ""
+":doc:`Поиск заявок с выбранным тегом </basics/find-ticket/search>` "
+"производится с помощью фильтра поиска ``tags:``. Например, чтобы найти все "
+"заявки с тегом **заказ**, необходимо выполнить поиск при помощи ``tags: "
+"заказ``."
 
 #: ../basics/what-is-a-ticket.rst:2
 msgid "What is a Ticket?"
-msgstr ""
+msgstr "Что такое заявка?"
 
 #: ../basics/what-is-a-ticket.rst:4
 msgid ""
@@ -2892,20 +3325,27 @@ msgid ""
 "added to that ticket until the issue is resolved, the customer is happy, and "
 "the ticket is finally **closed**."
 msgstr ""
+"В Zammad **заявки** используются для отслеживания запросов на обслуживание "
+"клиентов. В первый раз, когда клиент пишет Вам (или компании) о чем-то, "
+"Zammad создает новую заявку. Каждое сообщение, отправленное между Вами и "
+"клиентом, добавляется в эту заявку до тех пор, пока проблема не будет "
+"решена, клиент не останется доволен, и заявка не будет **закрыта**."
 
 #: ../basics/what-is-a-ticket.rst:12
 msgid ""
 "So in a basic sense, a ticket is **a thread of messages between you and a "
 "customer about a single issue**."
 msgstr ""
+"Итак, в базовом смысле заявка - это **набор сообщений между Вами и клиентом "
+"по одному вопросу**."
 
 #: ../basics/what-is-a-ticket.rst:20
 msgid "Ticket thread view"
-msgstr ""
+msgstr "Просмотр заявки"
 
 #: ../basics/what-is-a-ticket.rst:20
 msgid "A ticket is a thread of messages between a customer and an agent."
-msgstr ""
+msgstr "Заявка - это набор сообщений между клиентом и агентом."
 
 #: ../basics/what-is-a-ticket.rst:22
 msgid ""
@@ -3027,9 +3467,8 @@ msgid ""
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:48
-#, fuzzy
 msgid "Article"
-msgstr "article.from"
+msgstr "Статья"
 
 #: ../basics/zammad-glossary.rst:46
 msgid ""
@@ -4164,9 +4603,8 @@ msgid ""
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:663
-#, fuzzy
 msgid "Splitting tickets"
-msgstr "Поиск Тикетов"
+msgstr "Разделение заявок"
 
 #: ../basics/zammad-glossary.rst:660
 msgid ""
@@ -4427,9 +4865,8 @@ msgid ""
 msgstr ""
 
 #: ../extras/caller-log.rst:34
-#, fuzzy
 msgid "New Ticket dialog"
-msgstr "Макрос"
+msgstr "Окно \"Новая заявка\""
 
 #: ../extras/caller-log.rst:27
 msgid "Zammad will open a new ticket dialogue if:"
@@ -4681,7 +5118,7 @@ msgstr ""
 
 #: ../extras/customers.rst:13
 msgid "Ticket pane (customer view)"
-msgstr ""
+msgstr "Панель заявки (представление клиента)"
 
 #: ../extras/customers.rst:13
 msgid "Click the 👨 tab in the ticket pane to see the customer's profile."
@@ -5599,9 +6036,8 @@ msgid "Manage & use your ticket overviews"
 msgstr ""
 
 #: ../extras/mobile-view.rst:118
-#, fuzzy
 msgid "Search for existing records"
-msgstr "Поиск по номеру Тикета"
+msgstr "Поиск существующих записей"
 
 #: ../extras/mobile-view.rst:120
 msgid "Reply in an already existing ticket"
@@ -5759,6 +6195,8 @@ msgstr ""
 #: ../extras/organizations.rst:12
 msgid "Use the **ticket pane** to view and manage organization profiles."
 msgstr ""
+"Используйте **панель заявки** для просмотра и управления профилями "
+"организаций."
 
 #: ../extras/organizations.rst:18 ../extras/organizations.rst:51
 msgid "Ticket pane (organization view)"
@@ -5823,13 +6261,12 @@ msgid "Profile & Settings"
 msgstr ""
 
 #: ../extras/profile-and-settings.rst:4
-#, fuzzy
 msgid ""
 "Click on your avatar or initials at the bottom of the main menu to access "
 "your **profile and settings**."
 msgstr ""
-"Нажмите на свой аватар в нижней части главного меню, чтобы получить доступ к "
-"**памятке сочетаний клавиш**."
+"Нажмите на свой аватар или инициалы в нижней части главного меню, чтобы "
+"получить доступ к **профилю и настройкам**."
 
 #: ../extras/profile-and-settings.rst:12
 msgid ""
@@ -5838,9 +6275,8 @@ msgid ""
 msgstr ""
 
 #: ../extras/profile-and-settings.rst:17
-#, fuzzy
 msgid "User Menu"
-msgstr "Подменю пользователя"
+msgstr "Меню пользователя"
 
 #: ../extras/profile-and-settings.rst:19
 msgid ""
@@ -5877,7 +6313,6 @@ msgid "Screencast showing the dark mode button being toggled"
 msgstr ""
 
 #: ../extras/profile-and-settings.rst:36
-#, fuzzy
 msgid "Keyboard shortcuts"
 msgstr "Горячие клавиши"
 
@@ -6654,9 +7089,8 @@ msgid "Screencast showing how to rename / update existing shared drafts"
 msgstr ""
 
 #: ../extras/shared-drafts.rst:109
-#, fuzzy
 msgid "Existing ticket"
-msgstr "Поиск Тикетов"
+msgstr "Существующая заявка"
 
 #: ../extras/shared-drafts.rst:100
 msgid ""
