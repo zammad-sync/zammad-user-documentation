@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-28 15:08+0200\n"
-"PO-Revision-Date: 2026-10-24 08:12+0000\n"
+"PO-Revision-Date: 2026-10-31 19:12+0000\n"
 "Last-Translator: Igor Costa <igor_sfx@yahoo.com.br>\n"
 "Language-Team: Portuguese (Brazil) <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/pt_BR/>\n"
@@ -6906,9 +6906,14 @@ msgid ""
 "is written back to the tracker. Issues only: pull requests and merge "
 "requests cannot be linked."
 msgstr ""
+"Com a integração com rastreadores de issues, você pode vincular issues do "
+"GitHub e do GitLab a um ticket e acompanhar o estado delas enquanto trabalha "
+"nele. O Zammad armazena apenas as URLs das issues no ticket. Título, estado, "
+"tipo, milestone, responsáveis e etiquetas são lidos do GitHub ou do GitLab "
+"cada vez que você abre o painel. Nada é gravado de volta no rastreador. "
+"Apenas issues: pull requests e merge requests não podem ser vinculados."
 
 #: ../extras/github-gitlab-integration.rst:11
-#, fuzzy
 msgid ""
 "The panels are optional. If you don't see them in the ticket sidebar, your "
 "administrator hasn't enabled the integration yet. Customers don't see the "
@@ -6916,19 +6921,19 @@ msgid ""
 "system/integrations/github.html>` and :admin-docs:`GitLab </system/"
 "integrations/gitlab.html>` integration pages."
 msgstr ""
-"Este recurso é **opcional**; Se você não o vê no menu, significa que o "
-"administrador ainda não o ativou. Administradores podem saber mais `aqui "
-"<https://admin-docs.zammad.org/en/latest/channels-chat.html>`_."
+"Os painéis são opcionais. Se você não os vê na barra lateral do ticket, seu "
+"administrador ainda não ativou a integração. Os clientes também não veem os "
+"vínculos. Administradores podem saber mais nas páginas de integração com o "
+":admin-docs:`GitHub </system/integrations/github.html>` e o :admin-"
+"docs:`GitLab </system/integrations/gitlab.html>`."
 
 #: ../extras/github-gitlab-integration.rst:None
 msgid "Sidebar with opened GitHub panel and linked issue."
-msgstr ""
+msgstr "Barra lateral com o painel do GitHub aberto e uma issue vinculada."
 
 #: ../extras/github-gitlab-integration.rst:22
-#, fuzzy
-#| msgid "View related issues"
 msgid "View Linked Issues"
-msgstr "Ver questões relacionadas"
+msgstr "Ver issues vinculadas"
 
 #: ../extras/github-gitlab-integration.rst:24
 msgid ""
@@ -6943,12 +6948,20 @@ msgid ""
 "changes. If the panel shows ``Loading failed.`` instead of the issues, ask "
 "your administrator to check the token."
 msgstr ""
+"Abra a aba **GitHub** ou **GitLab** na barra lateral de um ticket que já "
+"tenha issues vinculadas. Cada entrada começa com um ícone do estado da "
+"issue, seguido do número e do título. Clique no título para abrir a issue no "
+"GitHub ou no GitLab. Cada entrada também mostra **Milestone**, **Assignees** "
+"e **Labels** da issue. As issues do GitHub mostram também um **Type**. Um "
+"campo só aparece quando a issue o tem. O selo na aba conta todas as issues "
+"vinculadas, não apenas as abertas. O Zammad lê o estado quando o painel "
+"carrega e não monitora as issues, então nenhuma notificação é enviada quando "
+"uma issue muda. Se o painel mostrar ``Loading failed.`` em vez das issues, "
+"peça ao seu administrador que verifique o token."
 
 #: ../extras/github-gitlab-integration.rst:36
-#, fuzzy
-#| msgid "Link a new issue"
 msgid "Link an Issue"
-msgstr "Vincule um novo problema"
+msgstr "Vincular uma issue"
 
 #: ../extras/github-gitlab-integration.rst:38
 msgid ""
@@ -6958,6 +6971,11 @@ msgid ""
 "group1/project1/-/issues/1``. While you create a ticket, you can link issues "
 "too. They are saved with the new ticket."
 msgstr ""
+"Selecione **Link issue** no menu ao lado do título do painel, informe a URL "
+"de uma única issue e confirme. O Zammad aceita links como ``https://"
+"github.com/organization/repository/issues/42`` ou ``https://git.example.com/"
+"group1/project1/-/issues/1``. Ao criar um ticket, você também pode vincular "
+"issues. Elas são salvas com o novo ticket."
 
 #: ../extras/github-gitlab-integration.rst:44
 msgid ""
@@ -6966,12 +6984,14 @@ msgid ""
 "the API token cannot read its repository or project. Ask your administrator "
 "to check the token in that case."
 msgstr ""
+"O Zammad ignora uma URL que já está vinculada ao ticket. Ele também rejeita "
+"uma URL que não consegue resolver, geralmente porque a issue não existe ou "
+"porque o token de API não consegue ler o repositório ou projeto dela. Nesse "
+"caso, peça ao seu administrador que verifique o token."
 
 #: ../extras/github-gitlab-integration.rst:50
-#, fuzzy
-#| msgid "Link a new issue"
 msgid "Unlink an Issue"
-msgstr "Vincule um novo problema"
+msgstr "Desvincular uma issue"
 
 #: ../extras/github-gitlab-integration.rst:52
 msgid ""
@@ -6979,18 +6999,15 @@ msgid ""
 "reference from the ticket and leaves the issue untouched in GitHub or "
 "GitLab. Other tickets that link the same issue keep their own reference."
 msgstr ""
+"Clique no botão ``X`` ao lado do título de uma issue. Desvincular remove a "
+"referência do ticket e deixa a issue intacta no GitHub ou no GitLab. Outros "
+"tickets que vinculam a mesma issue mantêm a própria referência."
 
 #: ../extras/i-doit-track-company-property.rst:2
 msgid "i-doit: Track Company Property"
 msgstr "i-doit: rastreie o patrimônio da empresa"
 
 #: ../extras/i-doit-track-company-property.rst:4
-#, fuzzy
-#| msgid ""
-#| "With the `i-doit <https://www.i-doit.com/>`_ integration, you can list "
-#| "which pieces of your company's property are related to any given ticket. "
-#| "That includes both physical and digital infrastructure, from servers to "
-#| "meeting rooms to virtual machines to software licenses."
 msgid ""
 "With the `i-doit <https://www.i-doit.com/>`_ integration, you can list which "
 "pieces of your company's property are related to any given ticket. That "
@@ -7002,17 +7019,11 @@ msgstr ""
 "Com a integração `i-doit <https://www.i-doit.com/>`_, você pode listar quais "
 "itens do patrimônio da empresa estão relacionados a um determinado ticket. "
 "Isso inclui infraestrutura física e digital, de servidores a salas de "
-"reunião, máquinas virtuais e licenças de software."
+"reunião, máquinas virtuais e licenças de software. Isso ajuda a acompanhar "
+"equipamentos problemáticos e a encontrar tickets anteriores da última vez "
+"que um objeto causou problemas."
 
 #: ../extras/i-doit-track-company-property.rst:11
-#, fuzzy
-#| msgid ""
-#| "This feature is optional. If you don't see it in the ticket view, that "
-#| "means your administrator hasn't enabled it yet. Administrators can learn "
-#| "more in the :admin-docs:`i-doit integration in the admin documentation </"
-#| "system/integrations/i-doit.html>`. If your company is using i-doit, ask "
-#| "your administrator / IT personnel to give you a tour. If your "
-#| "organization isn't already using i-doit, this guide is not for you."
 msgid ""
 "This feature is optional. If you don't see it in the ticket view, that means "
 "your administrator hasn't enabled it yet. Zammad's ticket sidebar and the "
@@ -7024,11 +7035,13 @@ msgid ""
 "already using i-doit, this guide is not for you."
 msgstr ""
 "Este recurso é opcional. Se você não o vê na visualização do ticket, "
-"significa que seu administrador ainda não o habilitou. Administradores podem "
-"saber mais na :admin-docs:`integração com o i-doit na documentação de "
-"administração </system/integrations/i-doit.html>`. Se sua empresa usa o i-"
-"doit, peça ao administrador / equipe de TI uma apresentação. Se sua "
-"organização ainda não usa o i-doit, este guia não é para você."
+"significa que seu administrador ainda não o habilitou. A barra lateral do "
+"ticket no Zammad e a lista de tickets no i-doit são configuradas "
+"separadamente, então seu administrador pode ativar uma sem a outra. "
+"Administradores podem saber mais na :admin-docs:`integração com o i-doit na "
+"documentação de administração </system/integrations/i-doit.html>`. Se sua "
+"empresa usa o i-doit, peça ao administrador / equipe de TI uma apresentação. "
+"Se sua organização ainda não usa o i-doit, este guia não é para você."
 
 #: ../extras/i-doit-track-company-property.rst:25
 msgid "(Screenshot) The i-doit integration menu in the ticket view"
@@ -7040,12 +7053,12 @@ msgid ""
 "The **i-doit** panel in the ticket sidebar lists the objects linked to a "
 "ticket."
 msgstr ""
+"O painel **i-doit** na barra lateral do ticket lista os objetos vinculados a "
+"um ticket."
 
 #: ../extras/i-doit-track-company-property.rst:29
-#, fuzzy
-#| msgid "In Zammad: Link i-doit Assets To Tickets"
 msgid "Link i-doit Objects to Tickets in Zammad"
-msgstr "No Zammad: vincule ativos do i-doit a tickets"
+msgstr "Vincular objetos do i-doit a tickets no Zammad"
 
 #: ../extras/i-doit-track-company-property.rst:31
 msgid ""
@@ -7054,17 +7067,21 @@ msgid ""
 "and name. The search matches object names only and returns at most 10 "
 "results, so pick a type to narrow it down."
 msgstr ""
+"Primeiro, adicione objetos do i-doit a um ticket na barra lateral do ticket. "
+"Na aba com o ícone de impressora, selecione **Change Objects** no painel **i-"
+"doit** e filtre por tipo e nome. A pesquisa considera apenas os nomes dos "
+"objetos e retorna no máximo 10 resultados, então escolha um tipo para "
+"restringir a busca."
 
 #: ../extras/i-doit-track-company-property.rst:40
-#, fuzzy
-#| msgid "(Screenshot) The i-doit integration menu in the ticket view"
 msgid "(Screenshot) The i-doit object picker with type filter and search field"
 msgstr ""
-"(Captura de tela) O menu da integração com o i-doit na visualização do ticket"
+"(Captura de tela) O seletor de objetos do i-doit com filtro de tipo e campo "
+"de pesquisa"
 
 #: ../extras/i-doit-track-company-property.rst:40
 msgid "Select the objects to link, then use the ``Submit`` button."
-msgstr ""
+msgstr "Selecione os objetos a vincular e use o botão ``Submit``."
 
 #: ../extras/i-doit-track-company-property.rst:42
 msgid ""
@@ -7075,12 +7092,16 @@ msgid ""
 "entry, which unlinks it from the ticket in Zammad and doesn't delete "
 "anything in i-doit."
 msgstr ""
+"Depois que os objetos forem vinculados a um ticket, clique em um objeto na "
+"barra lateral do ticket para abrir a página dele no i-doit. A barra lateral "
+"sempre mostra os dados atuais do i-doit: um objeto renomeado aparece com o "
+"novo nome, e um objeto excluído lá sai da lista. Use o ícone **Unlink "
+"object** ao lado de uma entrada, que desvincula o objeto do ticket no Zammad "
+"e não exclui nada no i-doit."
 
 #: ../extras/i-doit-track-company-property.rst:50
-#, fuzzy
-#| msgid "In i-doit: List & Create Tickets For a Given Asset"
 msgid "List & Create Tickets in i-doit"
-msgstr "No i-doit: liste e crie tickets para um determinado ativo"
+msgstr "Listar e criar tickets no i-doit"
 
 #: ../extras/i-doit-track-company-property.rst:52
 msgid ""
@@ -7091,6 +7112,12 @@ msgid ""
 "from i-doit, with the object already linked. Use **Create ticket** in the "
 "**All Tickets** panel to start it."
 msgstr ""
+"No i-doit, a página de um objeto deve conter uma lista de todos os tickets "
+"associados a ele. Clique em **All Tickets** na barra de ferramentas do "
+"objeto para listá-los e use o link **Open in ticketsystem** em uma linha "
+"para abrir o ticket no Zammad. Você pode até abrir a caixa de diálogo de "
+"novo ticket do Zammad diretamente do i-doit, com o objeto já vinculado. Use "
+"**Create ticket** no painel **All Tickets** para começar."
 
 #: ../extras/includes/shared-drafts-overwriting-drafts-warning.include.rst:1
 msgid "**☠️ Overwriting drafts is final**"
